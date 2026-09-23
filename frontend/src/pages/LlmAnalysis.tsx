@@ -19,6 +19,7 @@ export default function LlmAnalysis() {
   const [panelRows, setPanelRows] = useState<any[] | null>(null);
   const [panelLoading, setPanelLoading] = useState(false);
   const [panelExpanded, setPanelExpanded] = useState<number | null>(null);
+  const [panelSectionOpen, setPanelSectionOpen] = useState(false);
   const reportIdForPanel = raw?.report_id;
   useEffect(() => {
     if (!reportIdForPanel) return;
@@ -118,9 +119,9 @@ export default function LlmAnalysis() {
             <div style={{ fontSize:12, color:"#94A3B8", marginBottom:16 }}>Three architecturally different models from three different providers</div>
             <div style={{ display:"flex", flexDirection:"column", gap:10 }}>
               {[
-                { name: llm.judge_panel?.[0] || "Judge 1", color:"#7C3AED", bg:"#F3E8FF", specialty:"Broad factual knowledge, structured output" },
-                { name: llm.judge_panel?.[1] || "Judge 2", color:"#0091DA", bg:"#E0F2FE", specialty:"Reasoning, code, European-domain knowledge" },
-                { name: llm.judge_panel?.[2] || "Judge 3", color:"#059669", bg:"#DCFCE7", specialty:"Scientific, technical, multilingual domains" },
+                { name: "Judge 1", color:"#7C3AED", bg:"#F3E8FF", specialty:"Broad factual knowledge, structured output" },
+                { name: "Judge 2", color:"#0091DA", bg:"#E0F2FE", specialty:"Reasoning, code, European-domain knowledge" },
+                { name: "Judge 3", color:"#059669", bg:"#DCFCE7", specialty:"Scientific, technical, multilingual domains" },
               ].map((j, idx) => {
                 const active = panelSize > 0 ? idx < panelSize : llm.rows_judged > 0;
                 return (
@@ -231,18 +232,24 @@ export default function LlmAnalysis() {
         </div>
         {/* Panel Deliberation — per-row, per-judge votes/reasons/latency */}
         <div className="la-card" style={{ padding:"22px 24px", marginTop:20 }}>
-          <div style={{ display:"flex", justifyContent:"space-between", alignItems:"baseline", marginBottom:4 }}>
-            <div style={{ fontSize:14, fontWeight:800, color:"#0F172A" }}>Panel Deliberation</div>
+          <div
+            onClick={() => setPanelSectionOpen(o => !o)}
+            style={{ display:"flex", justifyContent:"space-between", alignItems:"baseline", marginBottom:4, cursor:"pointer" }}
+          >
+            <div style={{ display:"flex", alignItems:"center", gap:8 }}>
+              <div style={{ fontSize:14, fontWeight:800, color:"#0F172A" }}>Panel Deliberation</div>
+              <span style={{ fontSize:11, color:"#94A3B8" }}>{panelSectionOpen ? "▲" : "▼"}</span>
+            </div>
             {panelRows && <div style={{ fontSize:11, color:"#94A3B8" }}>{panelRows.length} rows</div>}
           </div>
-          <div style={{ fontSize:12, color:"#94A3B8", marginBottom:16 }}>What each judge actually said about each response, including their individual reply latency</div>
+          <div style={{ fontSize:12, color:"#94A3B8", marginBottom: panelSectionOpen ? 16 : 0 }}>What each judge actually said about each response, including their individual reply latency{!panelSectionOpen && panelRows && panelRows.length > 0 ? " — click to expand" : ""}</div>
 
-          {panelLoading && <div style={{ fontSize:12.5, color:"#64748B" }}>Loading panel deliberation…</div>}
-          {!panelLoading && (!panelRows || panelRows.length === 0) && (
+          {panelSectionOpen && panelLoading && <div style={{ fontSize:12.5, color:"#64748B" }}>Loading panel deliberation…</div>}
+          {panelSectionOpen && !panelLoading && (!panelRows || panelRows.length === 0) && (
             <div style={{ fontSize:12.5, color:"#94A3B8" }}>No per-row panel deliberation is available for this report.</div>
           )}
 
-          {!panelLoading && panelRows && panelRows.length > 0 && (
+          {panelSectionOpen && !panelLoading && panelRows && panelRows.length > 0 && (
             <div style={{ display:"flex", flexDirection:"column", gap:8 }}>
               {panelRows.map((row: any, i: number) => {
                 const isOpen = panelExpanded === i;
@@ -280,7 +287,7 @@ export default function LlmAnalysis() {
                           {(row.judges || []).map((j: any, ji: number) => (
                             <div key={ji} style={{ padding:"10px 12px", background: j.vote ? "#F0FDF4" : "#FEF2F2", border:`1px solid ${j.vote ? "#05966930" : "#DC262630"}` }}>
                               <div style={{ display:"flex", justifyContent:"space-between", alignItems:"center", marginBottom:6 }}>
-                                <span style={{ fontSize:11.5, fontWeight:700, color:"#1E293B" }}>{j.judge_name}</span>
+                                <span style={{ fontSize:11.5, fontWeight:700, color:"#1E293B" }}>Judge {ji + 1}</span>
                                 <span style={{ fontSize:10, fontWeight:700, color: j.vote ? "#059669" : "#DC2626" }}>{j.vote ? "Correct" : "Incorrect"}</span>
                               </div>
                               {j.reason && <div style={{ fontSize:11.5, color:"#475569", lineHeight:1.5, marginBottom:6 }}>{j.reason}</div>}

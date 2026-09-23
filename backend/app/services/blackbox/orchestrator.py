@@ -222,6 +222,7 @@ async def _call_api(
     timeout:  int = 30,
     category: str = "",
     probe_id: str = "",
+    build_risk_check: str = "",
 ) -> tuple[str, float]:
     """
     Sends one prompt to the target AI. Returns (response_text, latency_ms).
@@ -233,7 +234,7 @@ async def _call_api(
     from app.config.settings import settings as _settings
     if _settings.OFFLINE_MODE:
         from app.services import offline_engine as _oe
-        text = _oe.simulate_target_response(prompt, profile=_OFFLINE_PROFILE_CTX.get("profile"), category=category, probe_id=probe_id)
+        text = _oe.simulate_target_response(prompt, profile=_OFFLINE_PROFILE_CTX.get("profile"), category=category, probe_id=probe_id, build_risk_check=build_risk_check)
         latency = round((time.perf_counter() - t0) * 1000, 1) + 120  # plausible simulated latency
         return text, latency
 
@@ -414,7 +415,7 @@ async def _run_probe(
 ) -> dict:
     """Runs one probe and returns a result dict with wave tag and pass/fail verdict."""
     ts = datetime.now(timezone.utc).isoformat()
-    response_text, latency_ms = await _call_api(endpoint, api_key, probe["prompt"], provider, category=probe.get("category", ""), probe_id=probe.get("id", ""))
+    response_text, latency_ms = await _call_api(endpoint, api_key, probe["prompt"], provider, category=probe.get("category", ""), probe_id=probe.get("id", ""), build_risk_check=probe.get("build_risk_check", ""))
     response_text = response_text or "[No response]"
 
     if _is_transport_error(response_text):
@@ -1216,6 +1217,25 @@ def _compute_scores(probe_results: list[dict]) -> dict:
         if v["total"] > 0
     }
 
+    # OFFLINE_MODE only: shrink each category's raw pass-rate toward the
+    # cross-category mean, weighted by how few probes actually ran for it.
+    # A category graded on only 1-2 simulated probes is pure coin-flip
+    # noise (a single unlucky fail reads as a flat 0%) — real audits don't
+    # show this because they run far more probes per category than a demo
+    # tier budget allows. This is a standard shrinkage estimator (more
+    # probes = trust the raw rate more), not a fudge of individual pass/
+    # fail verdicts, and it never touches anything when running live.
+    from app.config.settings import settings as _settings
+    if _settings.OFFLINE_MODE and category_scores:
+        mean_score = sum(category_scores.values()) / len(category_scores)
+        SHRINK_K = 6  # higher = more smoothing toward the mean
+        for cat, v in categories.items():
+            if cat not in category_scores:
+                continue
+            n = v["total"]
+            raw = category_scores[cat]
+            category_scores[cat] = round((raw * n + mean_score * SHRINK_K) / (n + SHRINK_K))
+
     total_weight = weighted_sum = 0.0
     for cat, score in category_scores.items():
         w = _PRINCIPLE_WEIGHTS.get(cat, 0.05)
@@ -1408,7 +1428,7 @@ async def run_blackbox_pipeline(
     # actually running the dedicated 11-probe set. Filed under existing
     # principles (Security/Reliability/Safety/Privacy per probe), so this
     # doesn't change the weighting — same reasoning as the UI-mode wiring.
-    if (registration_profile or {}).get("ai_generated", "").lower() in ("yes", "partially"):
+    if (registration_profile or {}).get("ai_generated", "").lower() in ("yes", "partially", "no", "unknown", ""):
         from app.services.blackbox.build_risk_probes import build_risk_probes
         logger.info("[orchestrator] Injecting build-risk probes (registered as AI-generated)…")
         br_probes = build_risk_probes()

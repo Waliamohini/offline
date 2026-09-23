@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import AuditContextBar, { LensFooter } from "../components/AuditContextBar";
 import { useLocation, useNavigate } from "react-router-dom";
 import {
-  RadarChart, Radar, PolarGrid, PolarAngleAxis, ResponsiveContainer,
+  RadarChart, Radar, PolarGrid, PolarAngleAxis, PolarRadiusAxis, ResponsiveContainer,
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Cell,
 } from "recharts";
 
@@ -175,11 +175,18 @@ export default function CodeBuildRisk() {
   const weak      = evaluated.filter(c=>c.score<50).length;
   const weakest   = [...evaluated].sort((a,b)=>a.score-b.score).slice(0,3);
 
-  const radarData = groups.map(g=>{
-    const ev=g.items.filter(c=>c.status==="evaluated");
-    const avg=ev.length?Math.round(ev.reduce((s,c)=>s+c.score,0)/ev.length):0;
-    return { group:g.name.replace(" flaws","").replace("Web security config","Web sec").replace(" handling","").replace("Authorization flaws","Auth").replace("Output encoding","XSS/Encoding").replace("Supply chain","Supply chain").replace("Holds its ground","Persona"), score:avg, fullMark:100 };
-  });
+  const radarData = groups
+    .map(g=>{
+      const ev=g.items.filter(c=>c.status==="evaluated");
+      const avg=ev.length?Math.round(ev.reduce((s,c)=>s+c.score,0)/ev.length):null;
+      return { group:g.name.replace(" flaws","").replace("Web security config","Web sec").replace(" handling","").replace("Authorization flaws","Auth").replace("Output encoding","XSS/Encoding").replace("Supply chain","Supply chain").replace("Holds its ground","Persona"), score:avg, fullMark:100 };
+    })
+    // A group with no evaluated checks this run (budget/tier limits mean not
+    // every check fires every audit) isn't "scored 0" — it's simply untested.
+    // Plotting it at 0 would drag that axis to the center as if it failed,
+    // which is what made this chart read as one spike surrounded by a
+    // collapsed shape rather than a real security-posture polygon.
+    .filter(g => g.score !== null);
 
   const barData=[...evaluated].sort((a,b)=>a.score-b.score).slice(0,8)
     .map(c=>({ name:c.title.length>22?c.title.slice(0,20)+"…":c.title, score:c.score, full:c.title }));
@@ -268,6 +275,7 @@ export default function CodeBuildRisk() {
                     <RadarChart data={radarData}>
                       <PolarGrid stroke="#E2E8F0"/>
                       <PolarAngleAxis dataKey="group" tick={{ fontSize:10, fill:"#64748B", fontWeight:600 }}/>
+                      <PolarRadiusAxis domain={[0, 100]} tick={{ fontSize:9, fill:"#CBD5E1" }} tickCount={5} axisLine={false}/>
                       <Radar dataKey="score" stroke={M} fill={M} fillOpacity={0.15} strokeWidth={2} dot={{ fill:M, r:3 }}/>
                     </RadarChart>
                   </ResponsiveContainer>

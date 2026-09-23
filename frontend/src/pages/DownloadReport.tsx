@@ -60,7 +60,7 @@ export default function DownloadReport() {
     { icon:<Icon path={<><path d="M3 3v18h18"/><rect x="7" y="12" width="3" height="6" rx="0.5"/><rect x="12.5" y="8" width="3" height="10" rx="0.5"/><rect x="18" y="5" width="3" height="13" rx="0.5"/></>}/>,
       title:"Executive Summary",        desc:"Overall governance score, risk level, AI system metadata, model type, detection confidence, and deployment readiness assessment." },
     { icon:<Icon path={<><path d="M12 3 4 6.5v5c0 5 3.4 8.7 8 10 4.6-1.3 8-5 8-10v-5L12 3z"/><path d="m9.5 12 1.8 1.8L15 10"/></>}/>,
-      title:"Regulatory Alignment",     desc:"Alignment with EU AI Act, ISO 42001, NIST AI RMF, and KPMG Trusted AI Framework — with sub-parameter policy mapping." },
+      title:"Framework Alignment",     desc:"Alignment with EU AI Act, ISO 42001, NIST AI RMF, and KPMG Trusted AI Framework — with sub-parameter policy mapping." },
     { icon:<Icon path={<><path d="m12 3 9.5 17H2.5L12 3z"/><line x1="12" y1="10" x2="12" y2="14.5"/><line x1="12" y1="17" x2="12" y2="17.01"/></>}/>,
       title:"Risk Intelligence",        desc:"Complete findings breakdown by severity (High/Medium/Low), deployment blockers, governance exposure, and regulatory risk indicators." },
     { icon:<Icon path={<><path d="M12 2v3"/><path d="M12 19v3"/><path d="m5 6 3.5 2"/><path d="m15.5 16 3.5 2"/><path d="m5 18 3.5-2"/><path d="m15.5 8 3.5-2"/><circle cx="12" cy="12" r="3.2"/></>}/>,

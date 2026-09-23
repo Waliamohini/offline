@@ -10,16 +10,31 @@ from reportlab.lib import colors
 from reportlab.lib.units import mm, inch
 from reportlab.lib.enums import TA_LEFT, TA_CENTER, TA_RIGHT, TA_JUSTIFY
 from reportlab.pdfgen import canvas as rl_canvas
-from reportlab.graphics.shapes import Drawing, Rect, String, Line, Circle, Wedge
-from reportlab.graphics import renderPDF, renderPM
+from reportlab.graphics.shapes import Drawing, Rect, String, Line, Circle, Wedge, Group
+from reportlab.graphics import renderPDF
 
 
 def _drawing_to_image(drawing, width, height, scale=2):
-    """Render a Drawing to a PNG BytesIO at 2x scale for crispness."""
-    buf = BytesIO()
-    renderPM.drawToFile(drawing, buf, fmt='PNG', dpi=144)
-    buf.seek(0)
-    return RLImage(buf, width=width, height=height)
+    """
+    Scales a reportlab Drawing to fit width x height and returns it as a
+    flowable, ready to drop straight into the PDF's element flow.
+
+    This used to rasterize the drawing to a PNG via renderPM, which needs
+    a native rendering backend (rlPyCairo, or the old _renderPM C
+    extension) that isn't installed here — pulling that in means a Cairo
+    system dependency, which is exactly the kind of heavy, often
+    painful-to-build cross-platform install this project has been
+    trimming everywhere else. Platypus can lay out a Drawing directly as
+    a flowable — no PNG step needed at all, and vector output is sharper
+    than a rasterized one besides.
+    """
+    sx = (width / drawing.width) if drawing.width else 1
+    sy = (height / drawing.height) if drawing.height else 1
+    scaled = Drawing(width, height)
+    group = Group(drawing)
+    group.scale(sx, sy)
+    scaled.add(group)
+    return scaled
 from reportlab.graphics.charts.barcharts import VerticalBarChart
 from reportlab.graphics.charts.piecharts import Pie
 from io import BytesIO
@@ -1253,10 +1268,13 @@ def build_pdf(report: dict) -> BytesIO:
     model_type = report.get("model_type", "N/A")
     evaluated  = report.get("evaluated_at", "N/A")
     try:
-        dt = datetime.datetime.fromisoformat(evaluated)
+        # evaluated_at may already be a real datetime (JSON-file storage
+        # preserves datetime objects in-process — see database.py) or an
+        # ISO string (after a restart, when it's reloaded from disk).
+        dt = evaluated if isinstance(evaluated, datetime.datetime) else datetime.datetime.fromisoformat(evaluated)
         evaluated_fmt = dt.strftime("%d %B %Y, %H:%M UTC")
     except Exception:
-        evaluated_fmt = evaluated
+        evaluated_fmt = str(evaluated)
 
     overall_score  = report.get("overall_score", 0)
     risk_level     = report.get("risk_level", "N/A")
@@ -1657,7 +1675,7 @@ def build_pdf(report: dict) -> BytesIO:
         judge_color    = "#059669" if accuracy_pct is not None and accuracy_pct >= 85 else \
                          "#D97706" if accuracy_pct is not None and accuracy_pct >= 55 else "#DC2626"
 
-        elements.extend(section_header("", "AI Response Accuracy — LLM Judge Panel",
+        section_flow = list(section_header("", "AI Response Accuracy — LLM Judge Panel",
             f"A panel of {panel_size} independent LLM judges evaluated each logged response using majority-vote "
             "consensus. Disputed rows (where judges disagree) are excluded from the accuracy calculation to "
             "ensure only high-confidence verdicts are reported."))
@@ -1692,8 +1710,12 @@ def build_pdf(report: dict) -> BytesIO:
             ("LEFTPADDING",   (0, 0), (-1, -1), 6),
             ("VALIGN",        (0, 0), (-1, -1), "MIDDLE"),
         ]))
-        elements.append(jd_tbl)
-        elements.append(Spacer(1, 6 * mm))
+        # KeepTogether the whole section (header + table): this is short
+        # enough to always fit on one page — without this, the header can
+        # land at the bottom of one page while the table it introduces
+        # starts on the next, or the table splits with a couple of rows
+        # stranded on an otherwise-empty page.
+        elements.append(KeepTogether(section_flow + [jd_tbl, Spacer(1, 6 * mm)]))
 
     elements.append(PageBreak())
 
@@ -1961,7 +1983,8 @@ def build_pdf(report: dict) -> BytesIO:
                     Paragraph(a.get("owner_team", "—"), small_s),
                 ])
             act_tbl = Table(act_data,
-                colWidths=[14*mm, 30*mm, usable_w - 110*mm, 18*mm, 38*mm])
+                colWidths=[14*mm, 30*mm, usable_w - 110*mm, 18*mm, 38*mm],
+                repeatRows=1)
             act_tbl.setStyle(TableStyle([
                 ("BACKGROUND",    (0, 0), (-1, 0),  phase_borders[phase]),
                 ("TEXTCOLOR",     (0, 0), (-1, 0),  KPMG_WHITE),
@@ -2732,7 +2755,7 @@ def build_pdf(report: dict) -> BytesIO:
 def _friendly_report_id(ai_name: str, evaluated_at: str) -> str:
     """Generate a human-readable report ID: <AIName>_<YYYYMMDD>_<HHMM>"""
     try:
-        dt = datetime.datetime.fromisoformat(evaluated_at)
+        dt = evaluated_at if isinstance(evaluated_at, datetime.datetime) else datetime.datetime.fromisoformat(evaluated_at)
         date_part = dt.strftime("%Y%m%d_%H%M")
     except Exception:
         date_part = datetime.datetime.utcnow().strftime("%Y%m%d_%H%M")

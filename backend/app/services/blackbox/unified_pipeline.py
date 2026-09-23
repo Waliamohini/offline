@@ -212,7 +212,7 @@ async def run_unified_pipeline(
     applicable_cats = set(registration_profile.get("taf_applicable_categories") or [])
     applicable_all  = {"GAI"} | applicable_cats
     build_risk_active = (
-        (registration_profile.get("ai_generated", "") or "").lower() in ("yes", "partially")
+        (registration_profile.get("ai_generated", "") or "").lower() in ("yes", "partially", "no", "unknown", "")
     )
     plan = build_audit_plan(cfg, applicable_cats, build_risk_active=build_risk_active)
 
@@ -362,7 +362,7 @@ async def run_unified_pipeline(
     #  PHASE 2d — Build-risk probes (registration-gated, tier-sized)
     # ─────────────────────────────────────────────────────────────────────
     code_build_risk = {"applicable": False}
-    if (registration_profile.get("ai_generated", "") or "").lower() in ("yes", "partially"):
+    if (registration_profile.get("ai_generated", "") or "").lower() in ("yes", "partially", "no", "unknown", ""):
         from app.services.blackbox.build_risk_probes import synthesize_build_risk_probes
         from app.services.blackbox.build_risk import build_code_build_risk_section
         br_probes = await synthesize_build_risk_probes(

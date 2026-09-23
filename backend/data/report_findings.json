@@ -53,5 +53,104 @@
     "recommendation": "Review system prompt and context window management.",
     "finding_type": "model_metric",
     "id": "249753e3-78e3-472f-9027-15c9b95be440"
+  },
+  {
+    "report_id": "c2ae77b3-353b-4ac8-af2b-b0675008fc23",
+    "ai_system_id": "a3610c93-266f-4c0c-934c-85eede66d3df",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "category": "Fairness",
+    "severity": "Medium",
+    "issue": "Fairness score is 47/100 \u2014 governance gap detected.",
+    "recommendation": "Address fairness gaps before wider deployment.",
+    "finding_type": "structural",
+    "id": "05b807e4-2e1b-4338-b9b9-dff131b11cde"
+  },
+  {
+    "report_id": "c2ae77b3-353b-4ac8-af2b-b0675008fc23",
+    "ai_system_id": "a3610c93-266f-4c0c-934c-85eede66d3df",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "category": "Transparency",
+    "severity": "High",
+    "issue": "Transparency score is 18/100 \u2014 governance gap detected.",
+    "recommendation": "Address transparency gaps before wider deployment.",
+    "finding_type": "structural",
+    "id": "c319f1d0-2fe6-4d47-a9e4-fcca162b318b"
+  },
+  {
+    "report_id": "c2ae77b3-353b-4ac8-af2b-b0675008fc23",
+    "ai_system_id": "a3610c93-266f-4c0c-934c-85eede66d3df",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "category": "Explainability",
+    "severity": "High",
+    "issue": "Explainability score is 20/100 \u2014 governance gap detected.",
+    "recommendation": "Address explainability gaps before wider deployment.",
+    "finding_type": "structural",
+    "id": "2ac5d098-a0cf-43d7-9091-a3216ec2f5e0"
+  },
+  {
+    "report_id": "c2ae77b3-353b-4ac8-af2b-b0675008fc23",
+    "ai_system_id": "a3610c93-266f-4c0c-934c-85eede66d3df",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "category": "Accountability",
+    "severity": "High",
+    "issue": "Accountability score is 24/100 \u2014 governance gap detected.",
+    "recommendation": "Address accountability gaps before wider deployment.",
+    "finding_type": "structural",
+    "id": "d19d78f5-2438-46f8-a031-b7fe93883cb1"
+  },
+  {
+    "report_id": "c2ae77b3-353b-4ac8-af2b-b0675008fc23",
+    "ai_system_id": "a3610c93-266f-4c0c-934c-85eede66d3df",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "category": "avg_coherence",
+    "severity": "High",
+    "issue": "Mean coherence (sentence structure + vocabulary richness + discourse markers). is at risk (value: 0.575 score).",
+    "recommendation": "Review system prompt and context window management.",
+    "finding_type": "model_metric",
+    "id": "466e8549-d342-4fc7-af46-5322c8e61258"
+  },
+  {
+    "report_id": "41919b0c-bbc0-431e-9a74-d7f2373a296d",
+    "ai_system_id": "f9ab7d40-7af3-4ee8-97bf-e4c396afedc7",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "category": "Transparency",
+    "severity": "Medium",
+    "issue": "Transparency score is 45/100 \u2014 governance gap detected.",
+    "recommendation": "Address transparency gaps before wider deployment.",
+    "finding_type": "structural",
+    "id": "cbbb8fb9-ccf6-4d00-85a0-e272d156159b"
+  },
+  {
+    "report_id": "41919b0c-bbc0-431e-9a74-d7f2373a296d",
+    "ai_system_id": "f9ab7d40-7af3-4ee8-97bf-e4c396afedc7",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "category": "Explainability",
+    "severity": "Medium",
+    "issue": "Explainability score is 45/100 \u2014 governance gap detected.",
+    "recommendation": "Address explainability gaps before wider deployment.",
+    "finding_type": "structural",
+    "id": "34c105a1-10ba-414b-8b58-8524567ac5cf"
+  },
+  {
+    "report_id": "41919b0c-bbc0-431e-9a74-d7f2373a296d",
+    "ai_system_id": "f9ab7d40-7af3-4ee8-97bf-e4c396afedc7",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "category": "Accountability",
+    "severity": "Medium",
+    "issue": "Accountability score is 46/100 \u2014 governance gap detected.",
+    "recommendation": "Address accountability gaps before wider deployment.",
+    "finding_type": "structural",
+    "id": "9a71cf6c-2151-4c6e-8354-09f1874eac98"
+  },
+  {
+    "report_id": "41919b0c-bbc0-431e-9a74-d7f2373a296d",
+    "ai_system_id": "f9ab7d40-7af3-4ee8-97bf-e4c396afedc7",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "category": "avg_coherence",
+    "severity": "High",
+    "issue": "Mean coherence (sentence structure + vocabulary richness + discourse markers). is at risk (value: 0.570 score).",
+    "recommendation": "Review system prompt and context window management.",
+    "finding_type": "model_metric",
+    "id": "addb4b42-cbea-4d16-92fb-153a94dcafb9"
   }
 ]

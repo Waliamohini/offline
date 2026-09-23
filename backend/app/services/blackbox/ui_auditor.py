@@ -334,6 +334,7 @@ def _run_offline_pipeline(ai_name: str, ui_url: str, probe_prompts: list) -> lis
             profile={"ai_name": ai_name, "ui_url": ui_url},
             category=probe.get("category", ""),
             probe_id=probe.get("id", ""),
+            build_risk_check=probe.get("build_risk_check", ""),
             seed_extra="ui",
         )
         analysis = _analyse_response(response_text, probe.get("category", ""), probe=probe)

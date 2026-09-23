@@ -81,7 +81,7 @@ const REPORT_SECTIONS = [
   { path: "/llm-analysis",          label: "LLM Analysis",          shortLabel: "LLM",        icon: IconBrain    },
   { path: "/governance-principles", label: "Governance Principles", shortLabel: "Principles", icon: IconShield   },
   { path: "/taf-taxonomy",          label: "Risk Taxonomy",         shortLabel: "Taxonomy",   icon: IconTaxonomy },
-  { path: "/regulatory-alignment",  label: "Regulatory Alignment",  shortLabel: "Regulatory", icon: IconGlobe    },
+  { path: "/regulatory-alignment",  label: "Framework Alignment",  shortLabel: "Framework", icon: IconGlobe    },
   { path: "/code-build-risk",       label: "Build Vulnerabilities", shortLabel: "Build",      icon: IconCode     },
   { path: "/risk-intelligence",     label: "Risk Profile",          shortLabel: "Profile",    icon: IconAlert    },
   { path: "/recommendations",       label: "Recommendations",       shortLabel: "Actions",    icon: IconLightbulb},

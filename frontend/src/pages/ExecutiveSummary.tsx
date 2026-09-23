@@ -184,7 +184,7 @@ export default function ExecutiveSummary() {
     { label:"Data Quality",          path:"/agent-behaviour",       desc:"Dataset completeness, schema confidence, NLP metrics" },
     { label:"LLM Analysis",          path:"/llm-analysis",          desc:"Accuracy probe results and safety scoring"            },
     { label:"Governance Principles", path:"/governance-principles", desc:"10-dimension KPMG Trusted AI assessment"              },
-    { label:"Regulatory Alignment",  path:"/regulatory-alignment",  desc:"EU AI Act, ISO 42001, NIST framework compliance"     },
+    { label:"Framework Alignment",  path:"/regulatory-alignment",  desc:"EU AI Act, ISO 42001, NIST framework compliance"     },
     { label:"Risk Profile",          path:"/risk-intelligence",     desc:"Severity breakdown and remediation actions"          },
     { label:"Recommendations",       path:"/recommendations",       desc:"Per-principle remediation roadmap"                   },
   ];

@@ -621,7 +621,6 @@ export default function Glossary() {
           <h2 className="gl-cta-h2">Ready to audit your AI?</h2>
           <p className="gl-cta-sub">Join organisations using TrustShield AI to achieve trusted, explainable, and well-governed AI — in minutes.</p>
           <div className="gl-cta-btns">
-            <button className="gl-cta-w" onClick={() => navigate("/register")}>Create Free Account</button>
             <button className="gl-cta-o" onClick={() => navigate("/login")}>Sign In</button>
           </div>
         </Reveal>

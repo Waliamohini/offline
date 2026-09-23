@@ -627,13 +627,13 @@ export const REGULATORY_CSS = `
 body { background: #F8FAFC; }
 .ra-card {
   background: #fff;
-  border-radius: 12px;
+  border-radius: 0;
   border: 1px solid #E2E8F0;
   box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 4px 12px rgba(0,0,0,0.03);
 }
 .ra-fw-btn {
   width: 100%; text-align: left; padding: 11px 12px;
-  background: transparent; border: none; border-radius: 8px;
+  background: transparent; border: none; border-radius: 0;
   cursor: pointer; font-family: inherit; transition: background 0.12s;
   margin-bottom: 2px;
 }

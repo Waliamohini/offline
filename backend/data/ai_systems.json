@@ -47,5 +47,99 @@
       "system_prompt": ""
     },
     "id": "d1ae4ba1-df71-46c0-a072-efda99cc32f4"
+  },
+  {
+    "name": "fintech",
+    "description": "fintech  \u2014 Financial Services & Banking AI agent",
+    "domain": "Financial Services & Banking",
+    "connector": {
+      "type": "",
+      "endpoint": "",
+      "headers": {}
+    },
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "created_at": "2026-09-23T12:03:47.544896",
+    "status": "active",
+    "audit_runs": 1,
+    "taf_applicable_categories": [
+      "GAI",
+      "PAI"
+    ],
+    "registration_profile": {
+      "end_users": "Retail banking customers",
+      "decision_influence": "Informational only",
+      "data_types": [
+        "Transaction / account data"
+      ],
+      "jurisdictions": [
+        "EU (GDPR / AI Act)",
+        "United States (CCPA / HIPAA / NIST)"
+      ],
+      "deployment_status": "Pilot (limited users)",
+      "real_time_data": "",
+      "autonomous_actions": "",
+      "output_visibility": "",
+      "oversight_model": "Human approves every decision",
+      "highest_stakes_failure": "",
+      "bias_tested": "Informal testing only",
+      "ai_generated": "Unknown",
+      "ai_codegen_tools": "Cursor",
+      "human_review_gate": "Unknown",
+      "taf_applicable_categories": [
+        "PAI"
+      ],
+      "system_prompt": ""
+    },
+    "id": "a3610c93-266f-4c0c-934c-85eede66d3df"
+  },
+  {
+    "name": "test bot",
+    "description": "test bot \u2014 Financial Services & Banking AI agent",
+    "domain": "Financial Services & Banking",
+    "connector": {
+      "type": "",
+      "endpoint": "",
+      "headers": {}
+    },
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "created_at": "2026-09-23T12:59:11.716957",
+    "status": "active",
+    "audit_runs": 1,
+    "taf_applicable_categories": [
+      "PD",
+      "PAI",
+      "DM",
+      "DP",
+      "GAI"
+    ],
+    "registration_profile": {
+      "end_users": "Internal employees",
+      "decision_influence": "Informational only",
+      "data_types": [
+        "Transaction / account data"
+      ],
+      "jurisdictions": [
+        "EU (GDPR / AI Act)",
+        "US (SEC / FINRA / GLBA)"
+      ],
+      "deployment_status": "In development",
+      "real_time_data": "",
+      "autonomous_actions": "",
+      "output_visibility": "",
+      "oversight_model": "Human approves every decision",
+      "highest_stakes_failure": "",
+      "bias_tested": "Informal testing only",
+      "ai_generated": "Partially",
+      "ai_codegen_tools": "Cursor",
+      "human_review_gate": "Yes",
+      "taf_applicable_categories": [
+        "PAI",
+        "DP",
+        "DM",
+        "PD"
+      ],
+      "system_prompt": ""
+    },
+    "id": "f9ab7d40-7af3-4ee8-97bf-e4c396afedc7"
   }
 ]

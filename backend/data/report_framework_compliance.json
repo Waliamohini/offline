@@ -38,5 +38,85 @@
     "overall_score": 59,
     "threshold": null,
     "id": "e09d8ab2-c00b-4186-8c4e-96a1f6b0e46b"
+  },
+  {
+    "report_id": "c2ae77b3-353b-4ac8-af2b-b0675008fc23",
+    "ai_system_id": "a3610c93-266f-4c0c-934c-85eede66d3df",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "framework": "EU_AI_Act",
+    "status": "Conditional",
+    "overall_score": 59,
+    "threshold": 70,
+    "id": "8f3737c9-6bd4-4f66-8ca2-50b62a9cba55"
+  },
+  {
+    "report_id": "c2ae77b3-353b-4ac8-af2b-b0675008fc23",
+    "ai_system_id": "a3610c93-266f-4c0c-934c-85eede66d3df",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "framework": "ISO_42001",
+    "status": "Conditional",
+    "overall_score": 59,
+    "threshold": 75,
+    "id": "6127d6bf-eb11-4091-b2f3-1237893c165d"
+  },
+  {
+    "report_id": "c2ae77b3-353b-4ac8-af2b-b0675008fc23",
+    "ai_system_id": "a3610c93-266f-4c0c-934c-85eede66d3df",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "framework": "NIST_AI_RMF",
+    "status": "Conditional",
+    "overall_score": 59,
+    "threshold": 65,
+    "id": "ff59badb-a064-454b-8caf-7c71c5e13737"
+  },
+  {
+    "report_id": "c2ae77b3-353b-4ac8-af2b-b0675008fc23",
+    "ai_system_id": "a3610c93-266f-4c0c-934c-85eede66d3df",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "framework": "KPMG_TAF",
+    "status": "Assessed",
+    "overall_score": 59,
+    "threshold": null,
+    "id": "fdc11f8f-3b8d-48d4-88ab-c0d2a440f435"
+  },
+  {
+    "report_id": "41919b0c-bbc0-431e-9a74-d7f2373a296d",
+    "ai_system_id": "f9ab7d40-7af3-4ee8-97bf-e4c396afedc7",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "framework": "EU_AI_Act",
+    "status": "Compliant",
+    "overall_score": 76,
+    "threshold": 70,
+    "id": "42e17b41-78b4-4542-87ee-e8eded00c035"
+  },
+  {
+    "report_id": "41919b0c-bbc0-431e-9a74-d7f2373a296d",
+    "ai_system_id": "f9ab7d40-7af3-4ee8-97bf-e4c396afedc7",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "framework": "ISO_42001",
+    "status": "Certified Ready",
+    "overall_score": 76,
+    "threshold": 75,
+    "id": "addebf11-8191-48ad-a9b3-62624022f303"
+  },
+  {
+    "report_id": "41919b0c-bbc0-431e-9a74-d7f2373a296d",
+    "ai_system_id": "f9ab7d40-7af3-4ee8-97bf-e4c396afedc7",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "framework": "NIST_AI_RMF",
+    "status": "Aligned",
+    "overall_score": 76,
+    "threshold": 65,
+    "id": "2c0edd05-122c-4dfa-8034-66911719534d"
+  },
+  {
+    "report_id": "41919b0c-bbc0-431e-9a74-d7f2373a296d",
+    "ai_system_id": "f9ab7d40-7af3-4ee8-97bf-e4c396afedc7",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "framework": "KPMG_TAF",
+    "status": "Assessed",
+    "overall_score": 76,
+    "threshold": null,
+    "id": "8eeadba4-55a8-4490-b158-99db5cebc4cf"
   }
 ]

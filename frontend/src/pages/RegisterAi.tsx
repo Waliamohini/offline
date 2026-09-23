@@ -308,7 +308,7 @@ export default function RegisterAi() {
           output_visibility:      "",
           highest_stakes_failure: highestStakes,
           bias_tested:            biasTested,
-          ai_generated:           aiGenerated.startsWith("Yes")?"Yes":aiGenerated.startsWith("Partially")?"Partially":aiGenerated.startsWith("No")?"No":"Unknown",
+          ai_generated:           aiGenerated.startsWith("Yes")?"Yes":aiGenerated.startsWith("Partly")?"Partially":aiGenerated.startsWith("No")?"No":"Unknown",
           ai_codegen_tools:       aiCodegenTools,
           human_review_gate:      reviewGate.startsWith("Yes")?"Yes":reviewGate.startsWith("No")?"No":"Unknown",
           taf_applicable_categories: tafCategories,
