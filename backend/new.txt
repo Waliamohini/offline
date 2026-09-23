@@ -1,0 +1,43 @@
+# TrustShield AI — offline/static demo build
+# Change nothing here to just run the demo. See README.md for details.
+
+ENVIRONMENT=local
+LOG_LEVEL=INFO
+PORT=8000
+
+ALLOWED_ORIGINS=http://localhost:5173,http://127.0.0.1:5173
+
+# Storage: plain JSON files, one per collection, under backend/data/.
+# No database server needed at all. Leave blank to use that default, or
+# point it somewhere else (e.g. outside the repo) if you prefer.
+JSON_DATA_DIR=
+
+# Any 64-hex-char string works — this is only used to sign local demo login tokens.
+SECRET_KEY=0f6b2c6b7c6a4a4c9a8f7d6e5c4b3a291807f6e5d4c3b2a1908f7e6d5c4b3a29
+ALGORITHM=HS256
+ACCESS_TOKEN_EXPIRE_MINUTES=1440
+
+# Seeded demo login — created automatically the first time the backend starts.
+DEFAULT_USER_EMAIL=demo@trustshield-demo.com
+DEFAULT_USER_PASSWORD=demo1234
+DEFAULT_USER_NAME=Demo Auditor
+
+# ── Offline mode ─────────────────────────────────────────────────────────
+# true = no network calls anywhere (see app/services/offline_engine.py).
+# Leave this true for the static/offline build. All the LLM_PROVIDER /
+# GROQ_* / AZURE_* / GEMINI_* / JUDGE_* / OPENROUTER_* / TOGETHER_* keys
+# below are intentionally left blank — they are not used while OFFLINE_MODE=true.
+OFFLINE_MODE=true
+
+LLM_PROVIDER=groq
+GROQ_API_KEY=
+GROQ_API_KEY_2=
+AZURE_OPENAI_API_KEY=
+AZURE_OPENAI_ENDPOINT=
+GEMINI_API_KEY=
+JUDGE_GROQ_API_KEY=
+OPENROUTER_API_KEY=
+TOGETHER_API_KEY=
+
+STORAGE_PROVIDER=local
+LOCAL_STORAGE_PATH=./storage
