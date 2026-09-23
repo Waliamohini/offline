@@ -1,0 +1,51 @@
+# TrustShield AI — offline/static build
+# ---------------------------------------------------------------------------
+# Trimmed to the minimum that still gives the full app experience.
+#
+# Deliberately excluded, and safe to leave out:
+#   - detoxify, fairlearn, sentence-transformers, scikit-learn, nltk,
+#     rouge-score, sacrebleu, vaderSentiment, textstat, playwright,
+#     presidio-analyzer — the code already has pure-Python fallbacks for
+#     every one of these (see analysis_engines.py / metrics_calculator.py
+#     / ui_auditor.py) and uses them automatically when the real library
+#     isn't installed. Quality is very slightly lower (e.g. a regex-based
+#     readability estimate instead of the textstat formula) but nothing
+#     user-visible breaks.
+#   - httpx, requests, openai — these SDKs are only ever used on the
+#     real-network code paths (calling a live LLM provider, the 3-judge
+#     panel, or the audited AI's own endpoint). OFFLINE_MODE routes all of
+#     that through app/services/offline_engine.py instead, so none of
+#     these packages are imported at all in this build (the handful of
+#     places that used to import them unconditionally are now wrapped in
+#     try/except so the app runs fine without them). Install them and set
+#     OFFLINE_MODE=false in .env to go back to live behavior.
+#   - sqlalchemy, psycopg2-binary — storage is plain JSON files under
+#     backend/data/ (see app/database.py). No server, no schema.
+#   - pdfplumber, PyPDF2 — consolidated to just `pypdf` (does the same job,
+#     one less package; report_audit_routes.py was previously trying three
+#     different PDF libraries in sequence for no real benefit).
+
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+python-multipart==0.0.9
+
+pydantic==2.9.2
+pydantic-settings==2.5.2
+email-validator==2.2.0
+
+python-jose[cryptography]==3.3.0
+bcrypt==4.2.0
+
+# Log/data parsing (CSV/XLSX ingestion, detector.py's column analysis) —
+# genuinely load-bearing, not something the offline mode can skip.
+pandas==2.2.3
+numpy==1.26.4
+PyYAML==6.0.2
+
+# Document handling — self-attestation upload (.pdf/.docx) and report
+# export (.xlsx TAF export, .pdf governance report). All real, visible
+# features; each is the one library covering that format.
+pypdf>=5.0.1
+python-docx==1.1.2
+reportlab==4.2.5
+openpyxl==3.1.5

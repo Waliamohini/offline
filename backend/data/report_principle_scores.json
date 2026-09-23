@@ -1,0 +1,92 @@
+[
+  {
+    "report_id": "f28a6ee7-80b8-4387-bd3e-bf786b2edd18",
+    "ai_system_id": "d1ae4ba1-df71-46c0-a072-efda99cc32f4",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "principle": "Fairness",
+    "score": 48,
+    "description": "AI solutions should be designed to reduce or eliminate bias against individuals, communities, and groups. Ongoing bias monitoring and equal error rates across groups must be maintained across the full model lifecycle.",
+    "id": "e649bfe4-0a32-4fe1-8b25-bcfec57fd515"
+  },
+  {
+    "report_id": "f28a6ee7-80b8-4387-bd3e-bf786b2edd18",
+    "ai_system_id": "d1ae4ba1-df71-46c0-a072-efda99cc32f4",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "principle": "Transparency",
+    "score": 16,
+    "description": "AI solutions should include responsible disclosure to provide stakeholders with a clear understanding of what is happening in each solution across the AI lifecycle, including training data sources, model architecture, and known limitations.",
+    "id": "5d9ead24-6ede-434d-a647-81f17f372273"
+  },
+  {
+    "report_id": "f28a6ee7-80b8-4387-bd3e-bf786b2edd18",
+    "ai_system_id": "d1ae4ba1-df71-46c0-a072-efda99cc32f4",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "principle": "Explainability",
+    "score": 19,
+    "description": "AI solutions should be developed and delivered in a way that answers the questions of how and why a conclusion was drawn from the solution. Outputs must be interpretable to non-technical users, regulators, and affected individuals.",
+    "id": "1164c84c-5029-4dd6-8e9d-7153c1532c61"
+  },
+  {
+    "report_id": "f28a6ee7-80b8-4387-bd3e-bf786b2edd18",
+    "ai_system_id": "d1ae4ba1-df71-46c0-a072-efda99cc32f4",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "principle": "Accountability",
+    "score": 26,
+    "description": "Human oversight and responsibility should be embedded across the AI lifecycle to manage risk and comply with applicable laws and regulations. Clear governance structures, audit trails, and escalation procedures must assign and enforce accountability.",
+    "id": "c460766d-5dbc-426e-a4b2-cdfb854aa8ca"
+  },
+  {
+    "report_id": "f28a6ee7-80b8-4387-bd3e-bf786b2edd18",
+    "ai_system_id": "d1ae4ba1-df71-46c0-a072-efda99cc32f4",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "principle": "Data Integrity",
+    "score": 85,
+    "description": "Data used in AI solutions should be assessed for accuracy, completeness, appropriateness, and quality to drive trusted decisions.",
+    "id": "d980d69c-556e-474c-8a90-5c218d4d9da2"
+  },
+  {
+    "report_id": "f28a6ee7-80b8-4387-bd3e-bf786b2edd18",
+    "ai_system_id": "d1ae4ba1-df71-46c0-a072-efda99cc32f4",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "principle": "Reliability",
+    "score": 83,
+    "description": "AI solutions should consistently operate in accordance with their intended purpose and scope and at the desired level of precision. Performance degradation, failures, and edge cases must be actively monitored and SLA compliance maintained.",
+    "id": "9d17f05a-c6ee-4128-a223-13b12cb5d973"
+  },
+  {
+    "report_id": "f28a6ee7-80b8-4387-bd3e-bf786b2edd18",
+    "ai_system_id": "d1ae4ba1-df71-46c0-a072-efda99cc32f4",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "principle": "Security",
+    "score": 99,
+    "description": "Robust and resilient practices should be implemented to safeguard AI solutions against bad actors, misinformation, or adverse events. A defence-in-depth approach covering input validation, output filtering, adversarial robustness, and continuous red-teaming.",
+    "id": "2103c890-0bcf-466c-a90d-ea650686f211"
+  },
+  {
+    "report_id": "f28a6ee7-80b8-4387-bd3e-bf786b2edd18",
+    "ai_system_id": "d1ae4ba1-df71-46c0-a072-efda99cc32f4",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "principle": "Safety",
+    "score": 68,
+    "description": "AI solutions should be designed and implemented to safeguard against harm to people, businesses, and property. Safety must be embedded across the full AI lifecycle through proactive risk assessment, harm prevention controls, and human override mechanisms.",
+    "id": "e6251361-f56e-472a-9f2b-bc07ac2d51a3"
+  },
+  {
+    "report_id": "f28a6ee7-80b8-4387-bd3e-bf786b2edd18",
+    "ai_system_id": "d1ae4ba1-df71-46c0-a072-efda99cc32f4",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "principle": "Privacy",
+    "score": 77,
+    "description": "AI solutions should be designed to comply with applicable privacy and data protection laws and regulations. Data minimisation, purpose limitation, consent management, anonymisation, and right-to-erasure must be embedded by design.",
+    "id": "d5e7d4ff-2eac-4de4-8d14-4d41e3b53ca8"
+  },
+  {
+    "report_id": "f28a6ee7-80b8-4387-bd3e-bf786b2edd18",
+    "ai_system_id": "d1ae4ba1-df71-46c0-a072-efda99cc32f4",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "principle": "Sustainability",
+    "score": 69,
+    "description": "AI solutions should be designed to be energy efficient, reduce carbon emissions, and support a cleaner environment. Efficient model architectures, optimised training and inference pipelines, and responsible resource allocation reduce climate impact.",
+    "id": "8abb8541-416d-4168-bc02-48dfd4dccb63"
+  }
+]

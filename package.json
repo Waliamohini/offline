@@ -1,0 +1,9 @@
+{
+  "name": "trustshield-ai-offline",
+  "private": true,
+  "version": "1.0.0",
+  "description": "TrustShield AI — offline/static build. Run `npm run dev` from this folder to start both the backend and frontend together.",
+  "scripts": {
+    "dev": "node dev.js"
+  }
+}

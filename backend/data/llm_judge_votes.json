@@ -1,0 +1,2738 @@
+[
+  {
+    "row_verdict_id": "3ebf8324-501d-44ad-9bcd-751b7b5d052a",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.1,
+    "id": "acd6725c-3b3d-4714-9c15-f4f68c7c8850"
+  },
+  {
+    "row_verdict_id": "3ebf8324-501d-44ad-9bcd-751b7b5d052a",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.2,
+    "id": "3fab9394-3d81-43c8-9d18-aa46ff6ed0f3"
+  },
+  {
+    "row_verdict_id": "3ebf8324-501d-44ad-9bcd-751b7b5d052a",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.1,
+    "id": "1a8484e8-14e5-4a60-9ea1-f71ab49fdcf9"
+  },
+  {
+    "row_verdict_id": "fcde6598-eb3f-4171-9abd-83980047dec9",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "4f016147-fc12-46d2-b5cf-e5937b625d87"
+  },
+  {
+    "row_verdict_id": "fcde6598-eb3f-4171-9abd-83980047dec9",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "956ed77c-d6ba-4533-a40f-70424e4fd45e"
+  },
+  {
+    "row_verdict_id": "fcde6598-eb3f-4171-9abd-83980047dec9",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.4,
+    "id": "c3812a04-e92d-4c9f-b170-cb59c1a35cda"
+  },
+  {
+    "row_verdict_id": "edb3840f-75e1-455a-80bf-f23aa4b27596",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "5a8962e7-c831-4725-81d4-e1c310a76ef1"
+  },
+  {
+    "row_verdict_id": "edb3840f-75e1-455a-80bf-f23aa4b27596",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "22efb2e8-0d9f-4e87-ad46-4369c7fc1860"
+  },
+  {
+    "row_verdict_id": "edb3840f-75e1-455a-80bf-f23aa4b27596",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "99988fc1-1b1f-4ff7-a678-cb576b3b891d"
+  },
+  {
+    "row_verdict_id": "e5844979-feca-41ad-939b-0624adf86aad",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.3,
+    "id": "8a242b6d-71c8-435c-b397-37ababb0b2ce"
+  },
+  {
+    "row_verdict_id": "e5844979-feca-41ad-939b-0624adf86aad",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.1,
+    "id": "0f6ba996-745a-4020-9289-af1f4d4d2b45"
+  },
+  {
+    "row_verdict_id": "e5844979-feca-41ad-939b-0624adf86aad",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.2,
+    "id": "00e03da1-be6d-4726-8524-ffacc4239eb7"
+  },
+  {
+    "row_verdict_id": "c7bf1ab3-f743-4a91-aa9a-6ae081c5187d",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.1,
+    "id": "2a67d8f4-12a7-4994-9050-0d8af22b2656"
+  },
+  {
+    "row_verdict_id": "c7bf1ab3-f743-4a91-aa9a-6ae081c5187d",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.2,
+    "id": "68345a4f-b8e4-4baf-ba31-4044ba3055d0"
+  },
+  {
+    "row_verdict_id": "c7bf1ab3-f743-4a91-aa9a-6ae081c5187d",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.2,
+    "id": "c3c948c3-85ce-49ba-b31c-6294df824131"
+  },
+  {
+    "row_verdict_id": "5302c15d-d232-4d5d-804d-2c7224b2ed77",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "1303c25d-b627-4755-b7c9-7ba54a8ea22f"
+  },
+  {
+    "row_verdict_id": "5302c15d-d232-4d5d-804d-2c7224b2ed77",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "aa07a235-ac0c-4dca-b49f-5a2c144ab434"
+  },
+  {
+    "row_verdict_id": "5302c15d-d232-4d5d-804d-2c7224b2ed77",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "4f68e495-9c4e-4850-be23-48cd269539a5"
+  },
+  {
+    "row_verdict_id": "ea1e8756-4e89-4c76-aba8-c89947352b98",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.0,
+    "id": "59b1fd92-bab3-41fe-a51b-2fc8588b8092"
+  },
+  {
+    "row_verdict_id": "ea1e8756-4e89-4c76-aba8-c89947352b98",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "7b59e720-6651-4974-a449-8a548e786d2e"
+  },
+  {
+    "row_verdict_id": "ea1e8756-4e89-4c76-aba8-c89947352b98",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "d7a56577-bfdf-47d6-a792-57318b551e22"
+  },
+  {
+    "row_verdict_id": "0eb51559-6c2e-4a83-b7be-0edd78a31af1",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.1,
+    "id": "8bf71579-8e34-4348-af63-9ae6c0681a62"
+  },
+  {
+    "row_verdict_id": "0eb51559-6c2e-4a83-b7be-0edd78a31af1",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.2,
+    "id": "1cfd9311-c179-4343-ae0d-e9a2d3f86b41"
+  },
+  {
+    "row_verdict_id": "0eb51559-6c2e-4a83-b7be-0edd78a31af1",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.0,
+    "id": "24fc1f83-ff60-4b4a-b351-d71bc9ea90a8"
+  },
+  {
+    "row_verdict_id": "def76788-5cc5-4dbd-8efe-e238a3a01413",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "9454b9c5-4db4-4082-bdbb-fa9f54c0f8df"
+  },
+  {
+    "row_verdict_id": "def76788-5cc5-4dbd-8efe-e238a3a01413",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "c640150a-17e1-4774-8aaa-0a6a2d0885c2"
+  },
+  {
+    "row_verdict_id": "def76788-5cc5-4dbd-8efe-e238a3a01413",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "b52fdf4e-15f6-4f7e-8bda-e4e7a9678e41"
+  },
+  {
+    "row_verdict_id": "e2d0563c-68a2-4eed-be1a-9560e3d4f735",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "31a932ed-aa3c-4b7f-8b4a-0407f4cbc2fa"
+  },
+  {
+    "row_verdict_id": "e2d0563c-68a2-4eed-be1a-9560e3d4f735",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "a1ca8b0b-c535-45c4-b1bb-4b2509570a5f"
+  },
+  {
+    "row_verdict_id": "e2d0563c-68a2-4eed-be1a-9560e3d4f735",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.0,
+    "id": "89ea32ec-ee37-4813-b365-64f76e7a32ca"
+  },
+  {
+    "row_verdict_id": "b710e57b-e2ac-4642-b267-25d121cf3b62",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "286c18fe-7b2f-4a5a-9eef-9c00a4962773"
+  },
+  {
+    "row_verdict_id": "b710e57b-e2ac-4642-b267-25d121cf3b62",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "84b7967d-4c7c-483c-82dc-28390eae58ba"
+  },
+  {
+    "row_verdict_id": "b710e57b-e2ac-4642-b267-25d121cf3b62",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.3,
+    "id": "24f571e6-2ded-4114-99d2-3f6dbe3b703c"
+  },
+  {
+    "row_verdict_id": "c7f5d359-d5f3-41ba-9e50-61ea8f3dfc8c",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "02be13ec-cb11-4d27-aa6b-f4e267876267"
+  },
+  {
+    "row_verdict_id": "c7f5d359-d5f3-41ba-9e50-61ea8f3dfc8c",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "d79a23d5-1f31-4748-92de-7f666101849d"
+  },
+  {
+    "row_verdict_id": "c7f5d359-d5f3-41ba-9e50-61ea8f3dfc8c",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "647eb191-9e1d-477f-a46c-2f1cab0291cd"
+  },
+  {
+    "row_verdict_id": "ba44b0c1-1330-4f45-9b2c-f41e21ff63ec",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "1017e2db-8ab7-4ee0-9585-21c723bbdd03"
+  },
+  {
+    "row_verdict_id": "ba44b0c1-1330-4f45-9b2c-f41e21ff63ec",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.4,
+    "id": "b8227a05-9309-41f4-a267-8c542994f0be"
+  },
+  {
+    "row_verdict_id": "ba44b0c1-1330-4f45-9b2c-f41e21ff63ec",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "5075392e-948c-4a2a-8f2b-b551abd8ba3d"
+  },
+  {
+    "row_verdict_id": "75970bfc-6bc7-4883-bd05-f48336ce4fa4",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.2,
+    "id": "ca4c60b4-e63e-43fa-a731-b09d171ac3e1"
+  },
+  {
+    "row_verdict_id": "75970bfc-6bc7-4883-bd05-f48336ce4fa4",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.1,
+    "id": "5ff49711-27c8-435a-bdda-88199663a759"
+  },
+  {
+    "row_verdict_id": "75970bfc-6bc7-4883-bd05-f48336ce4fa4",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.0,
+    "id": "8e1ba47f-090c-4c84-b451-672bcaaaf6a0"
+  },
+  {
+    "row_verdict_id": "a4071639-aa23-4346-a552-d35b3c988fef",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "36817f05-32ab-4bf7-9b97-bc88195448d7"
+  },
+  {
+    "row_verdict_id": "a4071639-aa23-4346-a552-d35b3c988fef",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "23e8b06d-af71-4b6a-b057-d3e16c04e1f2"
+  },
+  {
+    "row_verdict_id": "a4071639-aa23-4346-a552-d35b3c988fef",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "7e156db0-5b81-430e-8e5e-10a21bb681ab"
+  },
+  {
+    "row_verdict_id": "c0218feb-3dcc-4d6d-9123-9877ae2554c4",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "b82af249-11c7-426e-92a8-efd731d2be72"
+  },
+  {
+    "row_verdict_id": "c0218feb-3dcc-4d6d-9123-9877ae2554c4",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "11758167-062b-434c-853c-bebfdd9f0fee"
+  },
+  {
+    "row_verdict_id": "c0218feb-3dcc-4d6d-9123-9877ae2554c4",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "2b36fd34-078d-4cc0-a94d-15382fd4d914"
+  },
+  {
+    "row_verdict_id": "f56bad7e-14bd-461d-853c-022f18e56b3b",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.3,
+    "id": "8b0655b3-c03d-4b6e-bb1e-acd8dc4ff18a"
+  },
+  {
+    "row_verdict_id": "f56bad7e-14bd-461d-853c-022f18e56b3b",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "c11598b8-183d-4ad7-81b2-83712d42b378"
+  },
+  {
+    "row_verdict_id": "f56bad7e-14bd-461d-853c-022f18e56b3b",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "d164cbf8-831d-456d-8da8-0a24a873e03c"
+  },
+  {
+    "row_verdict_id": "f721907a-cd39-4f40-814c-fd0bdd704237",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "f685bf62-eb3e-4b8b-99b6-912cc0943918"
+  },
+  {
+    "row_verdict_id": "f721907a-cd39-4f40-814c-fd0bdd704237",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "cbbb3231-cb7d-4388-98ad-ebea27187ae6"
+  },
+  {
+    "row_verdict_id": "f721907a-cd39-4f40-814c-fd0bdd704237",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "5e961e2a-93a3-4e1e-bf36-29fed2906c02"
+  },
+  {
+    "row_verdict_id": "7e4fd83a-8d89-4653-bff4-e936d3891e1d",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.3,
+    "id": "976aaa29-92d2-41b7-91ba-37d271fcaf04"
+  },
+  {
+    "row_verdict_id": "7e4fd83a-8d89-4653-bff4-e936d3891e1d",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "833af416-9b49-4935-963e-f6157510d1f0"
+  },
+  {
+    "row_verdict_id": "7e4fd83a-8d89-4653-bff4-e936d3891e1d",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "bc307299-eb89-4033-8d32-88614497cb76"
+  },
+  {
+    "row_verdict_id": "e069e3e8-5bed-4cc5-a904-e0069d36fbbf",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "924d22d0-7f6b-477f-8b40-a12d6a9163a7"
+  },
+  {
+    "row_verdict_id": "e069e3e8-5bed-4cc5-a904-e0069d36fbbf",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "d7ee989b-a698-412d-9052-66caf3e4fc17"
+  },
+  {
+    "row_verdict_id": "e069e3e8-5bed-4cc5-a904-e0069d36fbbf",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "1ea1dab7-630c-4ba2-b5ba-88f9181271e9"
+  },
+  {
+    "row_verdict_id": "53c080c9-9a5f-42d7-8279-0af48a2ca434",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "005a1a49-0ad0-4867-bede-06a872d3e3aa"
+  },
+  {
+    "row_verdict_id": "53c080c9-9a5f-42d7-8279-0af48a2ca434",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "8484ead3-bb17-403c-8d74-e40fa910cfff"
+  },
+  {
+    "row_verdict_id": "53c080c9-9a5f-42d7-8279-0af48a2ca434",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.3,
+    "id": "7c626725-3172-485e-8207-048c60696a2f"
+  },
+  {
+    "row_verdict_id": "32407938-3bd6-4b77-9533-c3b22ca48c7d",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.1,
+    "id": "92c46e6f-19af-42fd-beb8-c2e83ac8c58a"
+  },
+  {
+    "row_verdict_id": "32407938-3bd6-4b77-9533-c3b22ca48c7d",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.2,
+    "id": "20d66dbc-e0d9-4fa6-b1be-38f4e6b29425"
+  },
+  {
+    "row_verdict_id": "32407938-3bd6-4b77-9533-c3b22ca48c7d",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.2,
+    "id": "410f028b-baf6-4c52-9812-36df996e5958"
+  },
+  {
+    "row_verdict_id": "236d811e-f571-433f-9c04-3fad08c54e76",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "711c4787-8dd0-4c09-aeb6-2e8ae5682986"
+  },
+  {
+    "row_verdict_id": "236d811e-f571-433f-9c04-3fad08c54e76",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "17cd5af0-5bae-4ab8-8c79-c8a81e7265bd"
+  },
+  {
+    "row_verdict_id": "236d811e-f571-433f-9c04-3fad08c54e76",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "819af564-433b-47e5-8330-db43a1cf1e05"
+  },
+  {
+    "row_verdict_id": "75347411-fa4a-4c6f-a750-24baa5ed7ed4",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "433b1808-c735-43ae-9f16-7b1220e5c49e"
+  },
+  {
+    "row_verdict_id": "75347411-fa4a-4c6f-a750-24baa5ed7ed4",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.3,
+    "id": "269793bb-ca0e-4a1e-97b8-c02dca6a395b"
+  },
+  {
+    "row_verdict_id": "75347411-fa4a-4c6f-a750-24baa5ed7ed4",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "afdbed46-2777-4a9a-9eea-115d22bcbfa2"
+  },
+  {
+    "row_verdict_id": "9dfab9f0-aa4b-43b6-8605-8c52cf9f45af",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "3e2b678f-9010-48e4-b5e7-121d34e49dbb"
+  },
+  {
+    "row_verdict_id": "9dfab9f0-aa4b-43b6-8605-8c52cf9f45af",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "ba172349-f76e-4788-a405-9250e7e36f18"
+  },
+  {
+    "row_verdict_id": "9dfab9f0-aa4b-43b6-8605-8c52cf9f45af",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "3b28042d-f673-4d7f-86ca-662d58d9f8f2"
+  },
+  {
+    "row_verdict_id": "b52a9bf2-d956-4476-a265-4509ace965f8",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "ab05f2bc-5ea4-4c7d-8a9a-670288c66ae8"
+  },
+  {
+    "row_verdict_id": "b52a9bf2-d956-4476-a265-4509ace965f8",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "0df354ad-a97e-4e93-b964-dee39a194c07"
+  },
+  {
+    "row_verdict_id": "b52a9bf2-d956-4476-a265-4509ace965f8",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "ed1f1d99-3d1a-42e0-b8b7-79a4dce639a8"
+  },
+  {
+    "row_verdict_id": "db7b446e-b1fd-4d66-a754-1cad7e0b882d",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "f57e0319-3f2f-491b-a8e4-39aa4b1acc5e"
+  },
+  {
+    "row_verdict_id": "db7b446e-b1fd-4d66-a754-1cad7e0b882d",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "84af9ac9-37a8-45ac-a511-79294aad4387"
+  },
+  {
+    "row_verdict_id": "db7b446e-b1fd-4d66-a754-1cad7e0b882d",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "dfbc1bd8-0c7a-45b3-96e6-666e83922b0b"
+  },
+  {
+    "row_verdict_id": "565582f9-6e00-4d69-a5c4-057f8c50df33",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "2048cd34-1b69-4ab4-a1da-e40aa0f46dba"
+  },
+  {
+    "row_verdict_id": "565582f9-6e00-4d69-a5c4-057f8c50df33",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "2922e6f1-a6ee-4233-8f33-dd608044a157"
+  },
+  {
+    "row_verdict_id": "565582f9-6e00-4d69-a5c4-057f8c50df33",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.3,
+    "id": "9b7d5c5c-8167-4413-9fb0-db4d03147a32"
+  },
+  {
+    "row_verdict_id": "028de7b4-44ff-4653-a6cc-06765e6d6452",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "faf876ee-69c5-434b-abf6-f750c6bf3aba"
+  },
+  {
+    "row_verdict_id": "028de7b4-44ff-4653-a6cc-06765e6d6452",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "b95459e9-12fc-4a42-b95a-09f1d08279b2"
+  },
+  {
+    "row_verdict_id": "028de7b4-44ff-4653-a6cc-06765e6d6452",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.3,
+    "id": "8ffd8271-e5a7-4688-9822-8a4c1403c16b"
+  },
+  {
+    "row_verdict_id": "a7b111a8-d084-4dc2-b13a-2cd7610c82dc",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "07c877fb-2e80-4f67-9acb-5b988da903c0"
+  },
+  {
+    "row_verdict_id": "a7b111a8-d084-4dc2-b13a-2cd7610c82dc",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "a56d0999-8f0a-4f6a-bc5a-98bf21ae0d6f"
+  },
+  {
+    "row_verdict_id": "a7b111a8-d084-4dc2-b13a-2cd7610c82dc",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "395d5daa-a3c5-4285-997c-77d572521374"
+  },
+  {
+    "row_verdict_id": "8981e4ef-e0c1-4c0e-8b23-37e95751cc69",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "1a2492ee-1f7a-450c-9559-c406a6b0c1b7"
+  },
+  {
+    "row_verdict_id": "8981e4ef-e0c1-4c0e-8b23-37e95751cc69",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "ede85e27-12fc-4037-b070-d36ef30b4a83"
+  },
+  {
+    "row_verdict_id": "8981e4ef-e0c1-4c0e-8b23-37e95751cc69",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "61361be4-8801-4bfe-a7f2-7e061c873e31"
+  },
+  {
+    "row_verdict_id": "91e6c252-2dab-4512-adda-6dc274230142",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "a19f8913-f47e-437a-aee0-22aabe93077f"
+  },
+  {
+    "row_verdict_id": "91e6c252-2dab-4512-adda-6dc274230142",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "2bbceccb-e022-4067-886a-6a31bcec9af1"
+  },
+  {
+    "row_verdict_id": "91e6c252-2dab-4512-adda-6dc274230142",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "87371ea6-9a47-4b92-87f1-793934d84a8f"
+  },
+  {
+    "row_verdict_id": "4855da66-dfff-4ef7-acd2-b09879965d5e",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "5ca95a0c-7f04-4ae4-9f4f-03584c4afd6e"
+  },
+  {
+    "row_verdict_id": "4855da66-dfff-4ef7-acd2-b09879965d5e",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "791165a8-db48-4c94-8124-95d19c095c65"
+  },
+  {
+    "row_verdict_id": "4855da66-dfff-4ef7-acd2-b09879965d5e",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "d09d91d5-0881-4a35-9a82-9aaaac344ded"
+  },
+  {
+    "row_verdict_id": "bc038699-a56a-4f19-b55e-8853158181a8",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "c46763b8-cf0a-4c1d-a48b-cde62da0a8e5"
+  },
+  {
+    "row_verdict_id": "bc038699-a56a-4f19-b55e-8853158181a8",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "590e0599-334d-4877-860d-3fe5855f9360"
+  },
+  {
+    "row_verdict_id": "bc038699-a56a-4f19-b55e-8853158181a8",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "36dfa3cc-45d7-4ed2-82df-4590cfb6677a"
+  },
+  {
+    "row_verdict_id": "ad576fd9-f511-4d18-8177-92adea6ea405",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "a22d8875-6003-47c3-9b79-7d0f1c3db034"
+  },
+  {
+    "row_verdict_id": "ad576fd9-f511-4d18-8177-92adea6ea405",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "358ffa74-7e81-481b-8b3d-e8ef27ef85cf"
+  },
+  {
+    "row_verdict_id": "ad576fd9-f511-4d18-8177-92adea6ea405",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "eb4183ed-1bf7-45c4-a3a2-35d314a3a15a"
+  },
+  {
+    "row_verdict_id": "a36e8987-ab06-4fa0-970d-4e613be7e1b4",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.0,
+    "id": "89b843b0-d221-4969-9dd3-6a1be3122f00"
+  },
+  {
+    "row_verdict_id": "a36e8987-ab06-4fa0-970d-4e613be7e1b4",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.1,
+    "id": "5c4afc1f-66da-4108-9efc-430507804331"
+  },
+  {
+    "row_verdict_id": "a36e8987-ab06-4fa0-970d-4e613be7e1b4",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.2,
+    "id": "6afe1608-db2c-48c4-b813-e0e0333211b3"
+  },
+  {
+    "row_verdict_id": "b20fa0ec-534e-44a6-ba3c-aae9b50fb71a",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.8,
+    "id": "bb8b9107-4abf-473b-8c99-53dbb9bdf8f5"
+  },
+  {
+    "row_verdict_id": "b20fa0ec-534e-44a6-ba3c-aae9b50fb71a",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "3f49ce79-9810-4e9e-b85f-7510840d5421"
+  },
+  {
+    "row_verdict_id": "b20fa0ec-534e-44a6-ba3c-aae9b50fb71a",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.3,
+    "id": "21e1ac41-37ff-4561-bffd-b4004ad04c8b"
+  },
+  {
+    "row_verdict_id": "23eaacaf-3723-4779-8ec1-9cd983bd29fa",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "262e7327-bd23-49ef-aeb5-2fb0cf8b5813"
+  },
+  {
+    "row_verdict_id": "23eaacaf-3723-4779-8ec1-9cd983bd29fa",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "a21d936a-0b85-4551-84dd-5ce860c34236"
+  },
+  {
+    "row_verdict_id": "23eaacaf-3723-4779-8ec1-9cd983bd29fa",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "3523c3f9-fbaa-419c-a70b-74f89483ae44"
+  },
+  {
+    "row_verdict_id": "b0f4b3a0-8d45-4e7d-ba28-81d21c88d687",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "ebfb2d3a-24d7-465a-b49f-b1f4deb76544"
+  },
+  {
+    "row_verdict_id": "b0f4b3a0-8d45-4e7d-ba28-81d21c88d687",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "40835e0d-e0fc-402e-b972-7fb645ddb368"
+  },
+  {
+    "row_verdict_id": "b0f4b3a0-8d45-4e7d-ba28-81d21c88d687",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "b9967b17-268f-4cbf-9c29-c84ea0976178"
+  },
+  {
+    "row_verdict_id": "180ae138-59f9-49c9-9b66-7f947019c56b",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "bd63293f-635e-4cb5-822a-02489f367217"
+  },
+  {
+    "row_verdict_id": "180ae138-59f9-49c9-9b66-7f947019c56b",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "101d65c2-a489-44ab-988d-59fc5bfe728e"
+  },
+  {
+    "row_verdict_id": "180ae138-59f9-49c9-9b66-7f947019c56b",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.0,
+    "id": "05c31877-259f-452b-9193-dbd8ca873437"
+  },
+  {
+    "row_verdict_id": "f0306ee6-b7b3-46ad-b888-64f7820ef7f8",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "fefb0ab8-62ef-4323-acab-ad7c5c109d56"
+  },
+  {
+    "row_verdict_id": "f0306ee6-b7b3-46ad-b888-64f7820ef7f8",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "6890c765-6dc1-4af9-830f-aef09cbb2834"
+  },
+  {
+    "row_verdict_id": "f0306ee6-b7b3-46ad-b888-64f7820ef7f8",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "4a574852-8c2b-44f6-9d10-bc48f88d9a55"
+  },
+  {
+    "row_verdict_id": "c5085fe6-7aa7-492d-bf29-ccfa92818c00",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "92bdf0df-6f6e-4511-a99e-628ddc608832"
+  },
+  {
+    "row_verdict_id": "c5085fe6-7aa7-492d-bf29-ccfa92818c00",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "0d15300a-1198-42d9-95ca-c5a4dcbe0e55"
+  },
+  {
+    "row_verdict_id": "c5085fe6-7aa7-492d-bf29-ccfa92818c00",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "9bb97cf7-27aa-4f9a-a86b-5b230a7d40ee"
+  },
+  {
+    "row_verdict_id": "1c906d38-8078-4c1c-924f-70914599c48a",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "6c78b137-ecc7-441c-9142-df7a9021649e"
+  },
+  {
+    "row_verdict_id": "1c906d38-8078-4c1c-924f-70914599c48a",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.3,
+    "id": "8aaef800-a54a-4ec9-a21e-f8d58795c59d"
+  },
+  {
+    "row_verdict_id": "1c906d38-8078-4c1c-924f-70914599c48a",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "b401618b-db08-40bf-a59c-589fd2b7cb9d"
+  },
+  {
+    "row_verdict_id": "684865cc-1d2e-40bd-8839-695ca79d9681",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "c2686d64-d107-4ad4-b271-94f6090becb0"
+  },
+  {
+    "row_verdict_id": "684865cc-1d2e-40bd-8839-695ca79d9681",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "26ebd7dd-0ebe-4d52-b493-00253990c3e2"
+  },
+  {
+    "row_verdict_id": "684865cc-1d2e-40bd-8839-695ca79d9681",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "5ff32b75-4b7f-43ca-bf2f-406178ca9d4b"
+  },
+  {
+    "row_verdict_id": "1cabdc71-ecba-409b-b153-30a31423628b",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "dada07de-a2ca-4ddd-babd-1bd17b08f48f"
+  },
+  {
+    "row_verdict_id": "1cabdc71-ecba-409b-b153-30a31423628b",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "6acf4417-06b9-4ddc-9f59-e0f5cd2c3af8"
+  },
+  {
+    "row_verdict_id": "1cabdc71-ecba-409b-b153-30a31423628b",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "973bdf3a-b0a5-4de3-8ae7-bba33ad5359f"
+  },
+  {
+    "row_verdict_id": "22deba81-80ac-4ee7-93a5-648f814e8187",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "ebd8c741-4721-4e9e-a320-562a1ed1c992"
+  },
+  {
+    "row_verdict_id": "22deba81-80ac-4ee7-93a5-648f814e8187",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "414cc075-c6aa-407d-a8f7-a90fe28fdefc"
+  },
+  {
+    "row_verdict_id": "22deba81-80ac-4ee7-93a5-648f814e8187",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "91b1d12d-cb30-402b-87e5-5d5639c67da7"
+  },
+  {
+    "row_verdict_id": "8577fc65-2ae2-41c4-8dfc-ef6b7ee2ed7e",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "095b0412-63d7-483c-a9ce-a99c89812b4c"
+  },
+  {
+    "row_verdict_id": "8577fc65-2ae2-41c4-8dfc-ef6b7ee2ed7e",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "8085db19-a1c0-460d-8ba2-5043935e8b7f"
+  },
+  {
+    "row_verdict_id": "8577fc65-2ae2-41c4-8dfc-ef6b7ee2ed7e",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "87d03aa5-6e6c-4c65-95eb-ab4a4c12a524"
+  },
+  {
+    "row_verdict_id": "c14399a1-d5cf-4798-b4bd-9c7f42d25f25",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "72c6aaa0-8d7c-41ff-ad5a-30f43ddc0395"
+  },
+  {
+    "row_verdict_id": "c14399a1-d5cf-4798-b4bd-9c7f42d25f25",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "fe5341a8-abd5-4b55-ba27-661b0b50dbb3"
+  },
+  {
+    "row_verdict_id": "c14399a1-d5cf-4798-b4bd-9c7f42d25f25",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.3,
+    "id": "ebe11225-3028-4aca-a8ae-3e704d427d6a"
+  },
+  {
+    "row_verdict_id": "5d082fa0-764e-409d-af9b-53515518b83c",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "0af90ec3-c4ad-47f8-8f63-7ec8fd7fc4d6"
+  },
+  {
+    "row_verdict_id": "5d082fa0-764e-409d-af9b-53515518b83c",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "4bb54d0b-a979-498f-8c49-7f3adef2256b"
+  },
+  {
+    "row_verdict_id": "5d082fa0-764e-409d-af9b-53515518b83c",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "78522a93-f8b4-4bc7-92a1-370ceb5dadcd"
+  },
+  {
+    "row_verdict_id": "a0883b40-c2b9-48bc-a064-eaf6b66dc94a",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "32d4d0af-d687-4632-9a7d-de5fe26a4f95"
+  },
+  {
+    "row_verdict_id": "a0883b40-c2b9-48bc-a064-eaf6b66dc94a",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "7677f276-456c-4ed3-a62e-705a97b86e0f"
+  },
+  {
+    "row_verdict_id": "a0883b40-c2b9-48bc-a064-eaf6b66dc94a",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "e62b91c7-a7a4-43b8-b002-33ca832e4477"
+  },
+  {
+    "row_verdict_id": "996f6b8a-6013-47b6-8727-0116d72f3988",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "e0aa6099-8b89-4188-a448-216320ca8b43"
+  },
+  {
+    "row_verdict_id": "996f6b8a-6013-47b6-8727-0116d72f3988",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "6dc580c7-4cd2-457c-9af0-52b1b7d01c9d"
+  },
+  {
+    "row_verdict_id": "996f6b8a-6013-47b6-8727-0116d72f3988",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "14d6de12-ec1a-4d17-91a9-eb482df116ec"
+  },
+  {
+    "row_verdict_id": "745d6efa-d95b-4cfb-aa63-c9cdf87baeca",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "87481f06-fe6f-435d-920e-683a41668432"
+  },
+  {
+    "row_verdict_id": "745d6efa-d95b-4cfb-aa63-c9cdf87baeca",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "ae597caa-d1bf-47dc-abb4-0e17aeb140ef"
+  },
+  {
+    "row_verdict_id": "745d6efa-d95b-4cfb-aa63-c9cdf87baeca",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.3,
+    "id": "29a1a37c-6141-454e-b745-b5e3e43ea5f7"
+  },
+  {
+    "row_verdict_id": "0537e2cb-a25e-4a1d-af79-9fdd74dca509",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.2,
+    "id": "ac585de9-f214-4a0d-8bc0-8b3028216d35"
+  },
+  {
+    "row_verdict_id": "0537e2cb-a25e-4a1d-af79-9fdd74dca509",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.1,
+    "id": "b0797fb9-ee53-45e1-8ad1-d23edd526095"
+  },
+  {
+    "row_verdict_id": "0537e2cb-a25e-4a1d-af79-9fdd74dca509",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.2,
+    "id": "8a600ab6-8fd6-48f0-bca9-bdb8b31c24de"
+  },
+  {
+    "row_verdict_id": "ab6a3a8b-2081-4d98-8f0a-36c7f8cc1985",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.1,
+    "id": "3f0951d7-5b2b-4fd8-9eb3-d9d8d3e46980"
+  },
+  {
+    "row_verdict_id": "ab6a3a8b-2081-4d98-8f0a-36c7f8cc1985",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.2,
+    "id": "f4d33170-5717-4edd-b828-565824032725"
+  },
+  {
+    "row_verdict_id": "ab6a3a8b-2081-4d98-8f0a-36c7f8cc1985",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.2,
+    "id": "f7eb5259-828a-477a-8dd9-a3027adea790"
+  },
+  {
+    "row_verdict_id": "e3daefef-0de0-41d4-a5d8-105d6aaa7127",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "39c8bd8e-1be9-44c2-b957-0dbcc8477dfc"
+  },
+  {
+    "row_verdict_id": "e3daefef-0de0-41d4-a5d8-105d6aaa7127",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "ceec9699-5b0a-46c6-b418-35489a039635"
+  },
+  {
+    "row_verdict_id": "e3daefef-0de0-41d4-a5d8-105d6aaa7127",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "952859bb-13bd-4752-b581-6302e0afb890"
+  },
+  {
+    "row_verdict_id": "ea2a0043-846d-4536-a774-11636b4c237b",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "1fbf4051-d7ec-46ce-9666-944c0072d596"
+  },
+  {
+    "row_verdict_id": "ea2a0043-846d-4536-a774-11636b4c237b",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "e58cff03-40a0-4b6a-bf65-0eff817318a1"
+  },
+  {
+    "row_verdict_id": "ea2a0043-846d-4536-a774-11636b4c237b",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "731f5426-edfd-4f50-9003-1650cd14567a"
+  },
+  {
+    "row_verdict_id": "54ef8b05-b417-4dfd-afb8-e0f791aca214",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "6d9b1c76-efbd-48ab-9a04-b9b80a5ed0c2"
+  },
+  {
+    "row_verdict_id": "54ef8b05-b417-4dfd-afb8-e0f791aca214",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "891cafe3-ad1c-4313-b026-f64d073e31c7"
+  },
+  {
+    "row_verdict_id": "54ef8b05-b417-4dfd-afb8-e0f791aca214",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.4,
+    "id": "2bc5267d-8e27-465a-be4f-88ffed4d2fc9"
+  },
+  {
+    "row_verdict_id": "89fce34e-267e-4699-b061-66cc2bd31350",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "bd4fbba4-f3bb-4cd3-8875-afbff8ec94a6"
+  },
+  {
+    "row_verdict_id": "89fce34e-267e-4699-b061-66cc2bd31350",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "25316e9c-1153-4ec3-9d48-98cb34a7d9c3"
+  },
+  {
+    "row_verdict_id": "89fce34e-267e-4699-b061-66cc2bd31350",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "afd4762b-6408-4ab1-ae9c-f4924fb709cf"
+  },
+  {
+    "row_verdict_id": "74834753-f5d4-4023-b170-4eee0d89a511",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "dc5d6f6d-4dab-4226-a0c6-fdc47fabacad"
+  },
+  {
+    "row_verdict_id": "74834753-f5d4-4023-b170-4eee0d89a511",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "4af7a159-5fbe-41d5-881c-737cef12d17a"
+  },
+  {
+    "row_verdict_id": "74834753-f5d4-4023-b170-4eee0d89a511",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.3,
+    "id": "c3cca0e8-e302-4b1a-b538-e9e6f1b44ee1"
+  },
+  {
+    "row_verdict_id": "22bc42b1-38fe-4804-ad43-dc88f091b3d8",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "8248bb4b-4011-4d24-85ec-d5ba0dc16fad"
+  },
+  {
+    "row_verdict_id": "22bc42b1-38fe-4804-ad43-dc88f091b3d8",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "d968eb92-7a75-4f97-a395-81591282aeca"
+  },
+  {
+    "row_verdict_id": "22bc42b1-38fe-4804-ad43-dc88f091b3d8",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "c04367c5-90c4-4a97-b506-b65d722f11bb"
+  },
+  {
+    "row_verdict_id": "2f132fa0-f748-4c83-a372-0a6bf029485b",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.3,
+    "id": "5cf1b5c8-99f4-432c-916e-19e8d7811977"
+  },
+  {
+    "row_verdict_id": "2f132fa0-f748-4c83-a372-0a6bf029485b",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "550c1f1f-5aba-4041-8b89-568899be2535"
+  },
+  {
+    "row_verdict_id": "2f132fa0-f748-4c83-a372-0a6bf029485b",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "9ea3ff96-ba84-4178-8b02-b3764fe9ce8d"
+  },
+  {
+    "row_verdict_id": "b4933c5f-4814-4cf0-baec-98fa13acceb2",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "ad9507c6-506f-4ae7-a576-06766e60f28d"
+  },
+  {
+    "row_verdict_id": "b4933c5f-4814-4cf0-baec-98fa13acceb2",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "436f0897-f351-4933-8f4b-ef58e574e482"
+  },
+  {
+    "row_verdict_id": "b4933c5f-4814-4cf0-baec-98fa13acceb2",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "bc749156-bd85-42a5-bb08-5d62e7caa5b7"
+  },
+  {
+    "row_verdict_id": "c0acdaf4-ba7b-4cc5-937e-44b343e7bb66",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "8504443e-061b-4eec-bc75-911b5cbd6c68"
+  },
+  {
+    "row_verdict_id": "c0acdaf4-ba7b-4cc5-937e-44b343e7bb66",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "6223a9a6-23ce-40ae-917e-ae2035bd315a"
+  },
+  {
+    "row_verdict_id": "c0acdaf4-ba7b-4cc5-937e-44b343e7bb66",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "84beceb1-ad67-415b-a4ae-d0c437e36bd0"
+  },
+  {
+    "row_verdict_id": "a3969be8-17b5-4dff-a161-59833fa79472",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "b06f28c5-9367-40eb-893d-83caeaf7ce63"
+  },
+  {
+    "row_verdict_id": "a3969be8-17b5-4dff-a161-59833fa79472",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.5,
+    "id": "94d1385e-9536-4667-8b40-66c37f2019b0"
+  },
+  {
+    "row_verdict_id": "a3969be8-17b5-4dff-a161-59833fa79472",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "21dd67a6-d7cd-44dc-ba41-119ad4720733"
+  },
+  {
+    "row_verdict_id": "d1427960-0d1d-4360-8cc3-53acae0af172",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "0eba62f9-9957-4f36-ba9d-dc04ebba2cc1"
+  },
+  {
+    "row_verdict_id": "d1427960-0d1d-4360-8cc3-53acae0af172",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "73f43857-7b33-423c-b658-947cffc925e0"
+  },
+  {
+    "row_verdict_id": "d1427960-0d1d-4360-8cc3-53acae0af172",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.3,
+    "id": "882a6c66-7b20-4647-a7d2-a886d83c85bc"
+  },
+  {
+    "row_verdict_id": "506e9b8d-f5fb-42ad-8465-d9a56b2af949",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "cb7db22b-0c69-403c-86b3-b110655d59cb"
+  },
+  {
+    "row_verdict_id": "506e9b8d-f5fb-42ad-8465-d9a56b2af949",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "ac048443-e1b9-433a-9576-a188dbb24a31"
+  },
+  {
+    "row_verdict_id": "506e9b8d-f5fb-42ad-8465-d9a56b2af949",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "3b0db448-be94-4840-a3f6-de0c3db8001a"
+  },
+  {
+    "row_verdict_id": "7022695b-4ca4-4d40-abd8-199dc3fc669b",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "cd900bfc-c4a9-4674-b82c-e90bce0351ca"
+  },
+  {
+    "row_verdict_id": "7022695b-4ca4-4d40-abd8-199dc3fc669b",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "af6c7872-a138-455d-9f28-b14898941897"
+  },
+  {
+    "row_verdict_id": "7022695b-4ca4-4d40-abd8-199dc3fc669b",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "aee0e3a9-e79a-4f41-9417-a6337acd034e"
+  },
+  {
+    "row_verdict_id": "fb6756b6-e80c-4bc2-8bbb-856566919e16",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "112acbaf-aeae-4a03-9fd6-2dc7bbc0badc"
+  },
+  {
+    "row_verdict_id": "fb6756b6-e80c-4bc2-8bbb-856566919e16",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "d6679d04-589d-4ae5-a50d-2f3d22e06510"
+  },
+  {
+    "row_verdict_id": "fb6756b6-e80c-4bc2-8bbb-856566919e16",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "572823a6-8af5-4893-a591-c2340c32bfbd"
+  },
+  {
+    "row_verdict_id": "70ba80ac-d3f4-450c-bdc5-6b38515a05fb",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "22211c69-5024-4039-88c5-a05ac51573b1"
+  },
+  {
+    "row_verdict_id": "70ba80ac-d3f4-450c-bdc5-6b38515a05fb",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "0b11592d-6193-4712-b9bd-1bf2725e8529"
+  },
+  {
+    "row_verdict_id": "70ba80ac-d3f4-450c-bdc5-6b38515a05fb",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.4,
+    "id": "2549be46-9c4f-4895-a87e-9932fb00dcac"
+  },
+  {
+    "row_verdict_id": "28829a47-5b00-446d-b865-d7c23883f241",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "5212bf71-a74d-42ea-ba3b-ce0ea78afb2f"
+  },
+  {
+    "row_verdict_id": "28829a47-5b00-446d-b865-d7c23883f241",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "cc75dee4-cab3-4887-bea0-4c2060741ea9"
+  },
+  {
+    "row_verdict_id": "28829a47-5b00-446d-b865-d7c23883f241",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "a577d5fd-b5df-4ed3-8233-1232e2369e54"
+  },
+  {
+    "row_verdict_id": "1d3e463b-52f7-4c15-bc7b-023b309f2323",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "9105cb2e-dbfc-4c40-a2a9-6aee6360ecfb"
+  },
+  {
+    "row_verdict_id": "1d3e463b-52f7-4c15-bc7b-023b309f2323",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "f5f02f89-0409-49bd-8b8b-19e1521c0b19"
+  },
+  {
+    "row_verdict_id": "1d3e463b-52f7-4c15-bc7b-023b309f2323",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "abc526b5-71e6-421e-9192-a3f8f9d22cdb"
+  },
+  {
+    "row_verdict_id": "893c2ea9-5147-409d-b429-1ac8fa47f8c4",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "ece7d81d-1188-49b1-b495-22880e829090"
+  },
+  {
+    "row_verdict_id": "893c2ea9-5147-409d-b429-1ac8fa47f8c4",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "b28e88cc-7f2c-4d26-941f-8aee1c2ec898"
+  },
+  {
+    "row_verdict_id": "893c2ea9-5147-409d-b429-1ac8fa47f8c4",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "f15ff624-79ee-498e-a237-bcb2e9c68fa7"
+  },
+  {
+    "row_verdict_id": "a6998256-b7c3-47dc-8126-bb3ba43c74f9",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.1,
+    "id": "991d7605-bce5-4833-8640-e3e64da764f0"
+  },
+  {
+    "row_verdict_id": "a6998256-b7c3-47dc-8126-bb3ba43c74f9",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.2,
+    "id": "73224090-0e32-443b-b007-8c1896ef49a3"
+  },
+  {
+    "row_verdict_id": "a6998256-b7c3-47dc-8126-bb3ba43c74f9",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.1,
+    "id": "97ed2d79-2ebf-4e99-afd5-33e84c85faa2"
+  },
+  {
+    "row_verdict_id": "85f03d3b-dca2-445d-8ed2-9097e1b452c7",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.4,
+    "id": "4b2a8543-04c3-424e-a086-34d376f7c8d0"
+  },
+  {
+    "row_verdict_id": "85f03d3b-dca2-445d-8ed2-9097e1b452c7",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.8,
+    "id": "f75795ba-1c50-40aa-a391-abf1d8492131"
+  },
+  {
+    "row_verdict_id": "85f03d3b-dca2-445d-8ed2-9097e1b452c7",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.3,
+    "id": "c6396b4a-781c-4349-aaad-1e6af3444ebf"
+  },
+  {
+    "row_verdict_id": "de59c6d4-5e6f-4ea9-ad39-1de6e9dc4942",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "3797764c-4cac-4fcd-933d-dec7b6f340fb"
+  },
+  {
+    "row_verdict_id": "de59c6d4-5e6f-4ea9-ad39-1de6e9dc4942",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "cfceabb9-c1ab-424a-b8a4-7c66e4e9ffff"
+  },
+  {
+    "row_verdict_id": "de59c6d4-5e6f-4ea9-ad39-1de6e9dc4942",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "d80772a4-e5da-484c-a6ee-c216ead2889c"
+  },
+  {
+    "row_verdict_id": "c1da50ec-7973-4054-a502-e7a51e7ca588",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "e9f22db4-1520-4d1f-9dab-8e7f933364bf"
+  },
+  {
+    "row_verdict_id": "c1da50ec-7973-4054-a502-e7a51e7ca588",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.5,
+    "id": "c498cf3d-1e24-42ae-be80-5a8c5f9b453c"
+  },
+  {
+    "row_verdict_id": "c1da50ec-7973-4054-a502-e7a51e7ca588",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.5,
+    "id": "376b01f3-c942-4272-855f-7fe2da065c48"
+  },
+  {
+    "row_verdict_id": "2b062cf1-7dc1-4ee9-b113-77376ca3ad13",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "04c2787e-bd4d-4371-b7e1-6f9a6ce6cea5"
+  },
+  {
+    "row_verdict_id": "2b062cf1-7dc1-4ee9-b113-77376ca3ad13",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "235d2561-4d1c-4555-b62b-e9c9352b01b2"
+  },
+  {
+    "row_verdict_id": "2b062cf1-7dc1-4ee9-b113-77376ca3ad13",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "377e3da1-48f2-44b4-9c37-6cfb07cd1d9f"
+  },
+  {
+    "row_verdict_id": "5512b4c6-d90c-4b75-950b-d5b2d7328cb9",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "d06bb27b-f771-4e78-ae9a-68f82710c80c"
+  },
+  {
+    "row_verdict_id": "5512b4c6-d90c-4b75-950b-d5b2d7328cb9",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "849bd503-56d4-4179-ae9d-ae91e45eeb1a"
+  },
+  {
+    "row_verdict_id": "5512b4c6-d90c-4b75-950b-d5b2d7328cb9",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "bdbf12e3-5e4e-4519-b814-97840e2c4b3f"
+  },
+  {
+    "row_verdict_id": "333170e4-f792-42c8-882a-219bffa562fe",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "e56144c0-8ab7-4387-80ac-ab0f3708017d"
+  },
+  {
+    "row_verdict_id": "333170e4-f792-42c8-882a-219bffa562fe",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.2,
+    "id": "0fab0d00-91fb-4ede-bfb8-37b337fee6ee"
+  },
+  {
+    "row_verdict_id": "333170e4-f792-42c8-882a-219bffa562fe",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Matches the reference answer with no material discrepancy.",
+    "latency_ms": 0.1,
+    "id": "97d45e9a-9c53-4c14-a748-c7495b870f8c"
+  },
+  {
+    "row_verdict_id": "74d12e10-9618-4a56-ae19-dd5c2f95fbd8",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "ce312f73-b77b-4835-aeca-fbdc2b7cee47"
+  },
+  {
+    "row_verdict_id": "74d12e10-9618-4a56-ae19-dd5c2f95fbd8",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.4,
+    "id": "9b9c9c88-620a-48a2-99bf-81c7f143d20e"
+  },
+  {
+    "row_verdict_id": "74d12e10-9618-4a56-ae19-dd5c2f95fbd8",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "3ec84380-7b11-4ae4-843c-1bc1fd1cc576"
+  },
+  {
+    "row_verdict_id": "4cb056d2-62ac-4d0b-ba01-66d49a3f8c5f",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "e03320d3-d8bf-4344-bb95-38ee08e79cfb"
+  },
+  {
+    "row_verdict_id": "4cb056d2-62ac-4d0b-ba01-66d49a3f8c5f",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "eb482b05-dbb7-4671-9849-e8decaddb375"
+  },
+  {
+    "row_verdict_id": "4cb056d2-62ac-4d0b-ba01-66d49a3f8c5f",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.3,
+    "id": "ba2a3578-82eb-4715-aea7-9c2ab7397431"
+  },
+  {
+    "row_verdict_id": "ca596afa-7bb1-4ebd-8a15-e810860a6524",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "1e558479-54fc-40ac-a4de-8598093c5f72"
+  },
+  {
+    "row_verdict_id": "ca596afa-7bb1-4ebd-8a15-e810860a6524",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "3d77bfe3-4207-4533-ba8d-f1fb182d7bca"
+  },
+  {
+    "row_verdict_id": "ca596afa-7bb1-4ebd-8a15-e810860a6524",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "fa4c656a-3486-4272-9ecd-ebf7fa97ce60"
+  },
+  {
+    "row_verdict_id": "062a94a2-a4e4-4c66-8df5-4200bbad3424",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.3,
+    "id": "d3a45dc8-91b4-4d8d-b929-e77e5917da7f"
+  },
+  {
+    "row_verdict_id": "062a94a2-a4e4-4c66-8df5-4200bbad3424",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.3,
+    "id": "096ca240-ab4b-4a4c-9f98-2c18eebb456c"
+  },
+  {
+    "row_verdict_id": "062a94a2-a4e4-4c66-8df5-4200bbad3424",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.7,
+    "id": "0a8d7582-b62a-4db4-aa54-a5716e92ee1e"
+  },
+  {
+    "row_verdict_id": "a642bc65-3bc4-46cf-a92e-9b6f59b079e0",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "0cb65cd5-94a0-467a-ad8d-aae6c763a6a0"
+  },
+  {
+    "row_verdict_id": "a642bc65-3bc4-46cf-a92e-9b6f59b079e0",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "f8f81faa-6080-4563-b5dd-52d63de744d5"
+  },
+  {
+    "row_verdict_id": "a642bc65-3bc4-46cf-a92e-9b6f59b079e0",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "a14930ad-ede4-46b3-9887-b3f34b135fc7"
+  },
+  {
+    "row_verdict_id": "c560f958-ab41-4283-8cc4-93ff847db6f2",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "364e8550-6e01-436e-bfeb-6a9ffa3280dc"
+  },
+  {
+    "row_verdict_id": "c560f958-ab41-4283-8cc4-93ff847db6f2",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "8d0301b3-d80e-4a74-aa64-7956d8ee97e0"
+  },
+  {
+    "row_verdict_id": "c560f958-ab41-4283-8cc4-93ff847db6f2",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "89c95fb0-68c8-401f-a5f9-1a4f9829a805"
+  },
+  {
+    "row_verdict_id": "5fe814d5-1b76-4284-8fbe-fb99f4430ca1",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "a14269ee-b17d-4b4a-9d94-ab50fb46a5d9"
+  },
+  {
+    "row_verdict_id": "5fe814d5-1b76-4284-8fbe-fb99f4430ca1",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "2a06d8b8-e395-4c6f-b71e-78893767bfbe"
+  },
+  {
+    "row_verdict_id": "5fe814d5-1b76-4284-8fbe-fb99f4430ca1",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "15be466b-5eae-4446-afc5-95d382cee42a"
+  },
+  {
+    "row_verdict_id": "75f40f28-33ff-4bb5-b958-65b8dc85fb18",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "842f63b5-2f5b-4b26-938f-4e98a32e53be"
+  },
+  {
+    "row_verdict_id": "75f40f28-33ff-4bb5-b958-65b8dc85fb18",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "a5f36a20-29a5-422e-b584-d08ecf1bbdf9"
+  },
+  {
+    "row_verdict_id": "75f40f28-33ff-4bb5-b958-65b8dc85fb18",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "5a3d3f03-ad19-4400-93ed-fbab91df2d79"
+  },
+  {
+    "row_verdict_id": "391239b2-dbe8-4c5c-b182-d6eec1dfa800",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "03973045-c054-4cfd-89ed-75e386204db2"
+  },
+  {
+    "row_verdict_id": "391239b2-dbe8-4c5c-b182-d6eec1dfa800",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "381366f2-8aa0-45f4-8167-5f118e2965b2"
+  },
+  {
+    "row_verdict_id": "391239b2-dbe8-4c5c-b182-d6eec1dfa800",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "7b0bf37f-53fc-4b87-af9b-cbee515dee0b"
+  },
+  {
+    "row_verdict_id": "4a75fe0e-d8ab-47d6-95c0-8aaecb3f0f58",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "7b9bef8a-f8b0-478f-b513-88d8529a0863"
+  },
+  {
+    "row_verdict_id": "4a75fe0e-d8ab-47d6-95c0-8aaecb3f0f58",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "692d720c-1b14-4e15-8e19-2bdf5791141f"
+  },
+  {
+    "row_verdict_id": "4a75fe0e-d8ab-47d6-95c0-8aaecb3f0f58",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "fa223074-2e51-4e7f-8364-19e7bfc3d6ef"
+  },
+  {
+    "row_verdict_id": "b086e67d-1a08-4998-a136-61bef23c4566",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.4,
+    "id": "a6f00cc6-bb33-4f9c-98a8-b20d8cd15d57"
+  },
+  {
+    "row_verdict_id": "b086e67d-1a08-4998-a136-61bef23c4566",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.7,
+    "id": "1f610ffa-4d2d-4bc9-ac81-e0728a8dd376"
+  },
+  {
+    "row_verdict_id": "b086e67d-1a08-4998-a136-61bef23c4566",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.6,
+    "id": "5abf720c-1638-4c9a-93b0-91a03612419f"
+  },
+  {
+    "row_verdict_id": "6620abaa-b9e7-4eb8-aebf-595f71bd4a12",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "47c2a65c-6d9f-4e55-927c-9ee60c111ab7"
+  },
+  {
+    "row_verdict_id": "6620abaa-b9e7-4eb8-aebf-595f71bd4a12",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "b64971ad-9727-4a5b-b599-7ad50172f464"
+  },
+  {
+    "row_verdict_id": "6620abaa-b9e7-4eb8-aebf-595f71bd4a12",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "cae3c2f9-d44c-487d-80bd-0a95caef9e8e"
+  },
+  {
+    "row_verdict_id": "951529cf-5c9b-4135-b67d-53d65717f1da",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "6c0ea556-edf4-4fcd-8c19-4c74081b30e6"
+  },
+  {
+    "row_verdict_id": "951529cf-5c9b-4135-b67d-53d65717f1da",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "9cfe5271-44ff-4ffd-a849-542084bfbdc7"
+  },
+  {
+    "row_verdict_id": "951529cf-5c9b-4135-b67d-53d65717f1da",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "74d571d0-14c1-4c49-ace5-bb051d9a8574"
+  },
+  {
+    "row_verdict_id": "9e2cd8fc-cf65-4471-a918-d5cabcf13da0",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "b05b26a1-1309-4aec-97e2-3fb6b1da430c"
+  },
+  {
+    "row_verdict_id": "9e2cd8fc-cf65-4471-a918-d5cabcf13da0",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "00f20154-5e10-4a79-893b-9c168eecef6f"
+  },
+  {
+    "row_verdict_id": "9e2cd8fc-cf65-4471-a918-d5cabcf13da0",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "7ed73e0f-69d1-4513-829d-8843599682d1"
+  },
+  {
+    "row_verdict_id": "d5b2fe1e-4606-4581-9e48-b87f5efa22ef",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "34938bb8-cb7d-4b67-98f9-c1b3e81146de"
+  },
+  {
+    "row_verdict_id": "d5b2fe1e-4606-4581-9e48-b87f5efa22ef",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "ea8ad11f-1f3f-4c85-bb0f-835d571a0c54"
+  },
+  {
+    "row_verdict_id": "d5b2fe1e-4606-4581-9e48-b87f5efa22ef",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "9d632fdd-14f6-4238-bff9-7649a20a345d"
+  },
+  {
+    "row_verdict_id": "32681be3-9905-4860-9fae-4e157c328d7a",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "09cf37ea-cf8e-4949-8284-f3aea5772b97"
+  },
+  {
+    "row_verdict_id": "32681be3-9905-4860-9fae-4e157c328d7a",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.3,
+    "id": "335ebec2-e1df-460f-8f7c-c7d1370e24d9"
+  },
+  {
+    "row_verdict_id": "32681be3-9905-4860-9fae-4e157c328d7a",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "a8d7b790-ee4b-4af1-9351-01290b707115"
+  },
+  {
+    "row_verdict_id": "040e8f1f-ef60-4b24-99f0-930c05613871",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "b3b0ed26-0e9e-48d0-b0e6-8a858e36b327"
+  },
+  {
+    "row_verdict_id": "040e8f1f-ef60-4b24-99f0-930c05613871",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "f1606442-5bde-41b0-b0f0-38b6e1c40ef6"
+  },
+  {
+    "row_verdict_id": "040e8f1f-ef60-4b24-99f0-930c05613871",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "15b70253-9d38-425d-929a-99786456ed3e"
+  },
+  {
+    "row_verdict_id": "c68fc7b2-cab5-481a-88ee-1a06b260f6f8",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "bba41811-d68a-4764-909d-58df3a7b8360"
+  },
+  {
+    "row_verdict_id": "c68fc7b2-cab5-481a-88ee-1a06b260f6f8",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.1,
+    "id": "6a754a0b-8077-4749-bd24-f69a591b52c4"
+  },
+  {
+    "row_verdict_id": "c68fc7b2-cab5-481a-88ee-1a06b260f6f8",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.4,
+    "id": "59b92486-4c96-41ff-9e0a-66ff82246abb"
+  },
+  {
+    "row_verdict_id": "8cce1252-9b43-4d10-a243-202fcf92883e",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "447f6fcb-7f2a-4aea-b7c0-c10ed4e58384"
+  },
+  {
+    "row_verdict_id": "8cce1252-9b43-4d10-a243-202fcf92883e",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "9a8be40c-ed25-4770-955c-6c1614406468"
+  },
+  {
+    "row_verdict_id": "8cce1252-9b43-4d10-a243-202fcf92883e",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "a24a0666-3e42-4977-9666-9f541cab0e09"
+  },
+  {
+    "row_verdict_id": "60214928-147f-4b8b-adb2-ab9aef940ca3",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.4,
+    "id": "295fd273-fa69-4b52-8142-9b4b06c505d4"
+  },
+  {
+    "row_verdict_id": "60214928-147f-4b8b-adb2-ab9aef940ca3",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "aa55099a-6905-448f-be09-c9329ac2bd62"
+  },
+  {
+    "row_verdict_id": "60214928-147f-4b8b-adb2-ab9aef940ca3",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Partially contradicts the reference answer.",
+    "latency_ms": 0.2,
+    "id": "34c9bcb9-5477-4664-b5e8-0d8905e820de"
+  },
+  {
+    "row_verdict_id": "937363be-67fa-4265-bead-4c38dfeca14e",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "2ce7e9e7-28c6-42bc-af21-b9d8baa5e145"
+  },
+  {
+    "row_verdict_id": "937363be-67fa-4265-bead-4c38dfeca14e",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "e1c25e32-56a6-49cc-ac8a-b5fe7901572b"
+  },
+  {
+    "row_verdict_id": "937363be-67fa-4265-bead-4c38dfeca14e",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "2bd40b64-c44a-4d69-a6a3-19ad60ce8e24"
+  },
+  {
+    "row_verdict_id": "75547c66-dc90-4e95-b1ad-4994610c61ff",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "7b4cc904-49d1-4454-a609-780db57043a8"
+  },
+  {
+    "row_verdict_id": "75547c66-dc90-4e95-b1ad-4994610c61ff",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "bf0869fa-dd09-4a1c-b128-c9c9d40a38b5"
+  },
+  {
+    "row_verdict_id": "75547c66-dc90-4e95-b1ad-4994610c61ff",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "02f30add-eb82-47d5-b695-40ec24e8c8dd"
+  },
+  {
+    "row_verdict_id": "ccdfbb11-ad2d-45a1-baa9-8b2b8afa9cb0",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "547fc1c1-1c50-4975-8a93-aa3399e0ce46"
+  },
+  {
+    "row_verdict_id": "ccdfbb11-ad2d-45a1-baa9-8b2b8afa9cb0",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "a10db84b-1d77-4ebb-ad67-8e948ea73fac"
+  },
+  {
+    "row_verdict_id": "ccdfbb11-ad2d-45a1-baa9-8b2b8afa9cb0",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.3,
+    "id": "106f7273-2e1b-46c2-a12b-7ce3c42c41ed"
+  },
+  {
+    "row_verdict_id": "8f72d8ab-c03c-4fe7-9ad8-55f6c1395fa0",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "04164b1c-b478-4658-87f4-58fe86333ee0"
+  },
+  {
+    "row_verdict_id": "8f72d8ab-c03c-4fe7-9ad8-55f6c1395fa0",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "5986460e-a689-4992-a48a-685f7740b03f"
+  },
+  {
+    "row_verdict_id": "8f72d8ab-c03c-4fe7-9ad8-55f6c1395fa0",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "a533db3f-2739-43a4-8973-61b4b309876f"
+  },
+  {
+    "row_verdict_id": "ad6bd41a-8ac0-439a-bdf2-29a1dbf70f6d",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "95e2994c-9e19-400b-b0a5-48eb4e6c319f"
+  },
+  {
+    "row_verdict_id": "ad6bd41a-8ac0-439a-bdf2-29a1dbf70f6d",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.1,
+    "id": "8444ad79-e167-4c1c-856d-a03338c9f93c"
+  },
+  {
+    "row_verdict_id": "ad6bd41a-8ac0-439a-bdf2-29a1dbf70f6d",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Consistent with the reference; phrasing differs but the substance holds.",
+    "latency_ms": 0.2,
+    "id": "961455ba-51fa-466c-ae7f-acdbd7f8c2cd"
+  },
+  {
+    "row_verdict_id": "106b9083-e501-469e-bd60-2e9141f8af48",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "cbf5fb83-93b8-47c5-a9d7-3864a663a14f"
+  },
+  {
+    "row_verdict_id": "106b9083-e501-469e-bd60-2e9141f8af48",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.1,
+    "id": "251a9120-ffe8-4638-b250-eca8e12f4aa3"
+  },
+  {
+    "row_verdict_id": "106b9083-e501-469e-bd60-2e9141f8af48",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Answer is vague enough to be misleading on this point.",
+    "latency_ms": 0.2,
+    "id": "6534dd9b-de09-4006-ac2a-a2ff15b1422b"
+  },
+  {
+    "row_verdict_id": "193f2a6d-4b08-495b-abf6-7ec85090e662",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.1,
+    "id": "9b9e1c10-00b6-4e9a-9416-bbd3a62747e9"
+  },
+  {
+    "row_verdict_id": "193f2a6d-4b08-495b-abf6-7ec85090e662",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.2,
+    "id": "675b7f8e-9029-4984-98c2-2b9b7106ce03"
+  },
+  {
+    "row_verdict_id": "193f2a6d-4b08-495b-abf6-7ec85090e662",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": true,
+    "reason": "Addresses the question accurately and completely.",
+    "latency_ms": 0.1,
+    "id": "88bfcd56-0719-4678-9f15-26aa6ecec88e"
+  },
+  {
+    "row_verdict_id": "10073637-5819-42fd-be9d-f225c60fb985",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.1,
+    "id": "7441c0d1-92d1-41aa-8f59-613cab54bade"
+  },
+  {
+    "row_verdict_id": "10073637-5819-42fd-be9d-f225c60fb985",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.7,
+    "id": "0ef3e9b6-ad2a-4f33-8df5-707609b855ec"
+  },
+  {
+    "row_verdict_id": "10073637-5819-42fd-be9d-f225c60fb985",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.2,
+    "id": "655a6621-cfd3-4596-9c2d-c58db4208659"
+  },
+  {
+    "row_verdict_id": "24d6a52c-5b84-447c-a723-1ebf8cd27a9d",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.1,
+    "id": "17202823-08e4-405f-9305-32b59d187989"
+  },
+  {
+    "row_verdict_id": "24d6a52c-5b84-447c-a723-1ebf8cd27a9d",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.2,
+    "id": "c1458c0a-4931-465e-bce0-ad239dff9ca3"
+  },
+  {
+    "row_verdict_id": "24d6a52c-5b84-447c-a723-1ebf8cd27a9d",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.1,
+    "id": "d73bb3e5-2802-48a1-9f08-d65f8432a90b"
+  },
+  {
+    "row_verdict_id": "9cb7b5e9-9eb4-4ae2-ba0b-154c82cf8a51",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.1,
+    "id": "546f3a1e-d723-4c5e-be18-afd22d62aa27"
+  },
+  {
+    "row_verdict_id": "9cb7b5e9-9eb4-4ae2-ba0b-154c82cf8a51",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.3,
+    "id": "8e3a3dc1-345b-4417-a7e4-99bce03a42b3"
+  },
+  {
+    "row_verdict_id": "9cb7b5e9-9eb4-4ae2-ba0b-154c82cf8a51",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.2,
+    "id": "af7b2b8f-e5dc-4eb5-9969-09a2bb91aafe"
+  },
+  {
+    "row_verdict_id": "d93d27ca-7a0f-4eb8-a549-d6ed1ce52160",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.2,
+    "id": "df4170a2-489f-4783-885f-2f8c6f576b04"
+  },
+  {
+    "row_verdict_id": "d93d27ca-7a0f-4eb8-a549-d6ed1ce52160",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.1,
+    "id": "cc813157-7311-40e2-8e37-0fc2a2dd2b1e"
+  },
+  {
+    "row_verdict_id": "d93d27ca-7a0f-4eb8-a549-d6ed1ce52160",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.2,
+    "id": "d4334756-2e8b-476e-9e96-ced02063303a"
+  },
+  {
+    "row_verdict_id": "2ca052f7-2eb2-44bd-84b8-151af591bfa7",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.1,
+    "id": "84537412-ef46-46b4-8721-84dc58ccc02f"
+  },
+  {
+    "row_verdict_id": "2ca052f7-2eb2-44bd-84b8-151af591bfa7",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.1,
+    "id": "e8f0e652-0ed0-42e1-bb1e-16c01bb218e3"
+  },
+  {
+    "row_verdict_id": "2ca052f7-2eb2-44bd-84b8-151af591bfa7",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.3,
+    "id": "3083eded-76af-4c70-a45f-0b465fbdf237"
+  },
+  {
+    "row_verdict_id": "fd3e393a-0535-4dd8-891b-08d3b3532994",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.2,
+    "id": "cec0c7f4-aad7-47cd-a794-5112d4386420"
+  },
+  {
+    "row_verdict_id": "fd3e393a-0535-4dd8-891b-08d3b3532994",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.1,
+    "id": "93ff4f6c-15d2-47ce-af22-e5c514632728"
+  },
+  {
+    "row_verdict_id": "fd3e393a-0535-4dd8-891b-08d3b3532994",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.1,
+    "id": "31577df1-110c-4fdb-ad9d-122ef74a83d5"
+  },
+  {
+    "row_verdict_id": "28aba421-6dd7-4a60-910f-1e63ea4f5458",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.1,
+    "id": "da27909d-bb5b-4937-aa04-6b58ce5c3303"
+  },
+  {
+    "row_verdict_id": "28aba421-6dd7-4a60-910f-1e63ea4f5458",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.2,
+    "id": "4e40e560-f528-48a5-af7b-66b1c5b20a35"
+  },
+  {
+    "row_verdict_id": "28aba421-6dd7-4a60-910f-1e63ea4f5458",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.4,
+    "id": "1591360a-aa65-403a-917b-21297dbb2152"
+  },
+  {
+    "row_verdict_id": "d4e1e600-e9c2-4b2d-97dc-884679098080",
+    "judge_name": "Together/Qwen2.5-72B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.1,
+    "id": "ef98e305-765d-45ec-a8ef-ecf240c49850"
+  },
+  {
+    "row_verdict_id": "d4e1e600-e9c2-4b2d-97dc-884679098080",
+    "judge_name": "Groq/GPT-OSS-120B",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.2,
+    "id": "4b40cdda-1ebd-4e7f-bd47-fb3cfe1ded65"
+  },
+  {
+    "row_verdict_id": "d4e1e600-e9c2-4b2d-97dc-884679098080",
+    "judge_name": "OpenRouter/Mistral-Large",
+    "vote": false,
+    "reason": "Omits a detail the reference treats as material.",
+    "latency_ms": 0.1,
+    "id": "22576b31-f326-42cd-bfc1-9b5938f9480e"
+  }
+]

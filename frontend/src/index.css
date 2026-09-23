@@ -1,0 +1,166 @@
+/* =========================================================
+   TrustShield / Auditable-AI — Global Design Tokens
+   ONE source of truth. Replace src/index.css with this file.
+   Load fonts ONCE here — delete every per-page @import.
+   ========================================================= */
+
+/* Fonts (Inter, Manrope) are self-hosted via @fontsource — imported once
+   in main.tsx, bundled locally, no runtime internet required. */
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  /* Brand — KPMG-rooted navy stack */
+  --brand:           #00338D;
+  --brand-mid:       #005EB8;
+  --brand-light:     #0091DA;
+  --brand-soft:      #EEF4FF;
+  --brand-softer:    #F4F7FB;
+
+  /* Surfaces */
+  --bg:              #F7F9FC;
+  --surface:         #FFFFFF;
+  --surface-muted:   #F1F5F9;
+  --border:          #E3EAF3;
+  --border-strong:   #CBD5E1;
+
+  /* Text */
+  --text:            #0F172A;
+  --text-muted:      #5A7090;
+  --text-faint:      #8FA3BF;
+
+  /* Risk semantics — Watch is AMBER (not blue) so it never collides with brand */
+  --strong:          #059669;
+  --strong-soft:     #DCFCE7;
+  --watch:           #D97706;
+  --watch-soft:      #FEF3C7;
+  --critical:        #DC2626;
+  --critical-soft:   #FEE2E2;
+
+  /* Elevation */
+  --shadow-sm:       0 1px 2px rgba(15,23,42,0.04), 0 1px 3px rgba(15,23,42,0.06);
+  --shadow-md:       0 4px 16px rgba(0,51,141,0.06), 0 1px 3px rgba(15,23,42,0.04);
+  --shadow-lg:       0 8px 32px rgba(0,51,141,0.10);
+
+  /* Type */
+  --font-sans:    'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Manrope', 'Inter', system-ui, sans-serif;
+
+  --radius-sm: 0;
+  --radius:    0;
+  --radius-lg: 0;
+  --radius-xl: 0;
+
+  /* Legacy aliases — so existing pages using --B / --M keep working */
+  --B: var(--brand);
+  --M: var(--brand-mid);
+  --L: var(--brand-light);
+}
+
+html, body, #root { height: 100%; }
+
+body {
+  font-family: var(--font-sans);
+  background: var(--bg);
+  color: var(--text);
+  font-feature-settings: "cv11", "ss01";
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: var(--font-display);
+  letter-spacing: -0.02em;
+  color: var(--text);
+}
+
+a { color: inherit; text-decoration: none; }
+button { font-family: inherit; cursor: pointer; }
+
+/* Scrollbar polish — both the legacy -webkit- pseudo-elements and the
+   modern standard properties, since current Chromium/Edge honor the
+   standard scrollbar-width/scrollbar-color spec and will otherwise fall
+   back to the OS's default (thick) scrollbar if only -webkit- is set. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #D6DEEA var(--bg);
+}
+*::-webkit-scrollbar { width: 8px; height: 8px; }
+*::-webkit-scrollbar-track { background: transparent; }
+*::-webkit-scrollbar-thumb { background: #D6DEEA; border-radius: 8px; border: 2px solid transparent; background-clip: padding-box; }
+*::-webkit-scrollbar-thumb:hover { background: var(--border-strong); }
+
+/* ---------- Reusable utility classes ---------- */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-sm);
+}
+.card-hover { transition: box-shadow .15s, border-color .15s, transform .15s; }
+.card-hover:hover { box-shadow: var(--shadow-md); border-color: #C7D9F5; }
+
+.eyebrow {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+}
+
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: linear-gradient(135deg, var(--brand), var(--brand-mid));
+  color: white; font-weight: 700; font-size: 13.5px;
+  padding: 10px 18px; border-radius: var(--radius); border: none;
+  box-shadow: 0 4px 14px rgba(0,51,141,.25);
+  transition: transform .15s, box-shadow .15s;
+}
+.btn-primary:hover { transform: translateY(-1px); box-shadow: 0 8px 20px rgba(0,51,141,.3); }
+
+.btn-ghost {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--surface); color: var(--text-muted);
+  border: 1px solid var(--border); border-radius: var(--radius);
+  padding: 8px 14px; font-size: 13px; font-weight: 600;
+  transition: all .15s;
+}
+.btn-ghost:hover { border-color: var(--brand-mid); color: var(--brand-mid); }
+
+/* Risk pill — drop-in for any "band" tag */
+.pill { display: inline-flex; align-items: center; gap: 4px; padding: 3px 9px; border-radius: 0;
+  font-size: 11px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; }
+.pill-strong   { background: var(--strong-soft);   color: var(--strong); }
+.pill-watch    { background: var(--watch-soft);    color: var(--watch); }
+.pill-critical { background: var(--critical-soft); color: var(--critical); }
+
+@keyframes fadeUp { from { opacity:0; transform: translateY(10px); } to { opacity:1; transform: none; } }
+.fade-in { animation: fadeUp .35s cubic-bezier(.22,1,.36,1) both; }
+
+/* ---------- Aggressive cross-page overrides ----------
+   These quietly normalize the inline <style> blocks scattered
+   across pages so the redesign sticks without editing each page.
+   NOTE: scoped to the *.card utility class only (exact match,
+   plus BEM-style modifiers like .card--something). It used to be
+   `[class*="card"]`, which also matched unrelated classes that
+   merely contain the substring "card" (e.g. RegisterAi's
+   .rai-opt-card / .rai-chk-card option tiles), silently forcing
+   rounded corners onto pages that explicitly set border-radius:0. */
+.card, [class^="card-"], [class*=" card-"] {
+  border-radius: var(--radius-lg) !important;
+}
+input, select, textarea {
+  font-family: var(--font-sans);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--text);
+  padding: 10px 12px;
+  font-size: 13.5px;
+  outline: none;
+  transition: border-color .15s, box-shadow .15s;
+}
+input:focus, select:focus, textarea:focus {
+  border-color: var(--brand-mid);
+  box-shadow: 0 0 0 3px rgba(0,94,184,.15);
+}

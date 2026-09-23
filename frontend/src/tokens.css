@@ -1,0 +1,93 @@
+/* Plus Jakarta Sans / JetBrains Mono are self-hosted via @fontsource,
+   imported once in main.tsx — see index.css for the same note. */
+
+/* TrustShield AI — Design Tokens */
+:root {
+  /* Brand blues */
+  --blue-900: #00338D;
+  --blue-800: #00418F;
+  --blue-700: #005EB8;
+  --blue-600: #006FD6;
+  --blue-500: #0091DA;
+  --blue-200: #C7D9F5;
+  --blue-100: #E0EDFB;
+  --blue-50:  #EEF4FF;
+
+  /* Semantic risk colors */
+  --strong:      #059669;
+  --strong-bg:   #DCFCE7;
+  --strong-bd:   #BBF7D0;
+  --watch:       #D97706;
+  --watch-bg:    #FFF7ED;
+  --watch-bd:    #FED7AA;
+  --critical:    #DC2626;
+  --critical-bg: #FEE2E2;
+  --critical-bd: #FECACA;
+
+  /* Neutrals */
+  --gray-950: #060D1A;
+  --gray-900: #0F172A;
+  --gray-800: #1E293B;
+  --gray-700: #334155;
+  --gray-600: #475569;
+  --gray-500: #64748B;
+  --gray-400: #94A3B8;
+  --gray-300: #CBD5E1;
+  --gray-200: #E2E8F0;
+  --gray-150: #EDF2F7;
+  --gray-100: #F1F5F9;
+  --gray-50:  #F8FAFC;
+  --white:    #FFFFFF;
+
+  /* Surface */
+  --surface:     #FFFFFF;
+  --surface-2:   #F8FAFC;
+  --surface-3:   #F1F5F9;
+  --border:      #E2E8F0;
+  --border-soft: #EDF2F7;
+
+  /* Typography */
+  --font-sans: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', 'Fira Code', monospace;
+
+  /* Spacing */
+  --space-1: 4px;  --space-2: 8px;  --space-3: 12px; --space-4: 16px;
+  --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-10: 40px;
+
+  /* Radii */
+  --radius-sm: 0; --radius-md: 0; --radius-lg: 0;
+  --radius-xl: 0; --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-sm:   0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md:   0 1px 3px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.05);
+  --shadow-lg:   0 4px 20px rgba(0,0,0,0.08), 0 1px 4px rgba(0,0,0,0.04);
+  --shadow-blue: 0 4px 20px rgba(0,51,141,0.12);
+
+  /* Layout */
+  --sidebar-w:    240px;
+  --topbar-h:     56px;
+  --audit-bar-h:  52px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: var(--font-sans);
+  background: var(--gray-50);
+  color: var(--gray-900);
+  -webkit-font-smoothing: antialiased;
+}
+
+/* border-radius: 0 (rectangular look) */
+
+@keyframes ts-fade-up {
+  from { opacity: 0; transform: translateY(10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes ts-pulse { 0%,100%{opacity:1} 50%{opacity:.45} }
+
+.ts-fade   { animation: ts-fade-up 0.35s cubic-bezier(.22,1,.36,1) both; }
+.ts-fade-1 { animation: ts-fade-up 0.35s 0.05s cubic-bezier(.22,1,.36,1) both; }
+.ts-fade-2 { animation: ts-fade-up 0.35s 0.10s cubic-bezier(.22,1,.36,1) both; }
+.ts-fade-3 { animation: ts-fade-up 0.35s 0.15s cubic-bezier(.22,1,.36,1) both; }
+.ts-fade-4 { animation: ts-fade-up 0.35s 0.20s cubic-bezier(.22,1,.36,1) both; }

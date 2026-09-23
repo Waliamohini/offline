@@ -1,0 +1,242 @@
+[
+  {
+    "framework_compliance_id": "00c0f38f-be62-4ec1-9183-f17789745918",
+    "principle": "Fairness",
+    "score": 48,
+    "id": "acec11b2-420d-43a1-ab22-ec2d9f7a16eb"
+  },
+  {
+    "framework_compliance_id": "00c0f38f-be62-4ec1-9183-f17789745918",
+    "principle": "Transparency",
+    "score": 16,
+    "id": "d3b35364-99d1-4aa1-9368-21521e22d943"
+  },
+  {
+    "framework_compliance_id": "00c0f38f-be62-4ec1-9183-f17789745918",
+    "principle": "Explainability",
+    "score": 19,
+    "id": "7f79ef42-eb1c-48d4-9189-5e0521bcf2fc"
+  },
+  {
+    "framework_compliance_id": "00c0f38f-be62-4ec1-9183-f17789745918",
+    "principle": "Accountability",
+    "score": 26,
+    "id": "e56d623c-ed2c-42e0-bca7-4962dc66fdfc"
+  },
+  {
+    "framework_compliance_id": "00c0f38f-be62-4ec1-9183-f17789745918",
+    "principle": "Data Integrity",
+    "score": 85,
+    "id": "6e23d9b5-5471-4737-928d-77c625eb99a9"
+  },
+  {
+    "framework_compliance_id": "00c0f38f-be62-4ec1-9183-f17789745918",
+    "principle": "Reliability",
+    "score": 83,
+    "id": "4a905c80-454a-4169-8d61-aaaacd5d3a80"
+  },
+  {
+    "framework_compliance_id": "00c0f38f-be62-4ec1-9183-f17789745918",
+    "principle": "Security",
+    "score": 99,
+    "id": "e5a24fcb-57a3-46b7-bd5f-248c8bd06a9b"
+  },
+  {
+    "framework_compliance_id": "00c0f38f-be62-4ec1-9183-f17789745918",
+    "principle": "Safety",
+    "score": 68,
+    "id": "367c1dfe-23ca-4fdb-a22a-90f2edcde5dd"
+  },
+  {
+    "framework_compliance_id": "00c0f38f-be62-4ec1-9183-f17789745918",
+    "principle": "Privacy",
+    "score": 77,
+    "id": "5cc2e9d0-2524-4f05-a6f3-8a758a824f5c"
+  },
+  {
+    "framework_compliance_id": "00c0f38f-be62-4ec1-9183-f17789745918",
+    "principle": "Sustainability",
+    "score": 69,
+    "id": "9a74b202-15fe-45e7-9702-b620f271f9dc"
+  },
+  {
+    "framework_compliance_id": "834b5fce-3c22-4e23-9898-db28a442a6b1",
+    "principle": "Fairness",
+    "score": 48,
+    "id": "738cd83c-ca93-40d4-ac14-96eee177812e"
+  },
+  {
+    "framework_compliance_id": "834b5fce-3c22-4e23-9898-db28a442a6b1",
+    "principle": "Transparency",
+    "score": 16,
+    "id": "97aebb24-760b-4a95-b330-8c14d09a6638"
+  },
+  {
+    "framework_compliance_id": "834b5fce-3c22-4e23-9898-db28a442a6b1",
+    "principle": "Explainability",
+    "score": 19,
+    "id": "e57773c5-3ea9-48a3-aeaa-1a04d68c9af4"
+  },
+  {
+    "framework_compliance_id": "834b5fce-3c22-4e23-9898-db28a442a6b1",
+    "principle": "Accountability",
+    "score": 26,
+    "id": "600a82f6-3788-4a08-8474-4fa861d9bbd9"
+  },
+  {
+    "framework_compliance_id": "834b5fce-3c22-4e23-9898-db28a442a6b1",
+    "principle": "Data Integrity",
+    "score": 85,
+    "id": "405fe8fd-0998-4ce6-aff0-8faf435a9e06"
+  },
+  {
+    "framework_compliance_id": "834b5fce-3c22-4e23-9898-db28a442a6b1",
+    "principle": "Reliability",
+    "score": 83,
+    "id": "0dd829ab-22ed-4541-b8fe-a910c4f93cc2"
+  },
+  {
+    "framework_compliance_id": "834b5fce-3c22-4e23-9898-db28a442a6b1",
+    "principle": "Security",
+    "score": 99,
+    "id": "c0aab09c-726d-4f29-a71e-dbbb390497f1"
+  },
+  {
+    "framework_compliance_id": "834b5fce-3c22-4e23-9898-db28a442a6b1",
+    "principle": "Safety",
+    "score": 68,
+    "id": "b03931d6-b1f4-4558-ba9f-9abd6627167f"
+  },
+  {
+    "framework_compliance_id": "834b5fce-3c22-4e23-9898-db28a442a6b1",
+    "principle": "Privacy",
+    "score": 77,
+    "id": "07ab4f60-1716-4bfb-aeb1-2fac1d96136b"
+  },
+  {
+    "framework_compliance_id": "834b5fce-3c22-4e23-9898-db28a442a6b1",
+    "principle": "Sustainability",
+    "score": 69,
+    "id": "32fc5977-30e2-4370-97c1-c752e6352e09"
+  },
+  {
+    "framework_compliance_id": "7016cc39-98e5-44d4-8938-ab41c03312e9",
+    "principle": "Fairness",
+    "score": 48,
+    "id": "bf4467a1-8a08-44bd-a4a9-c4187094cd1c"
+  },
+  {
+    "framework_compliance_id": "7016cc39-98e5-44d4-8938-ab41c03312e9",
+    "principle": "Transparency",
+    "score": 16,
+    "id": "b7f05dd6-55ce-47b4-9f01-aa100ef03b3d"
+  },
+  {
+    "framework_compliance_id": "7016cc39-98e5-44d4-8938-ab41c03312e9",
+    "principle": "Explainability",
+    "score": 19,
+    "id": "524781e6-e91a-4422-a892-35e9d02183ea"
+  },
+  {
+    "framework_compliance_id": "7016cc39-98e5-44d4-8938-ab41c03312e9",
+    "principle": "Accountability",
+    "score": 26,
+    "id": "b74caeb9-2061-4eb3-baf8-835ac81f1a1e"
+  },
+  {
+    "framework_compliance_id": "7016cc39-98e5-44d4-8938-ab41c03312e9",
+    "principle": "Data Integrity",
+    "score": 85,
+    "id": "3ee1da3c-7ea9-4462-9a17-8637efd0bb3f"
+  },
+  {
+    "framework_compliance_id": "7016cc39-98e5-44d4-8938-ab41c03312e9",
+    "principle": "Reliability",
+    "score": 83,
+    "id": "f8e7aee1-25be-41e1-9340-872922398827"
+  },
+  {
+    "framework_compliance_id": "7016cc39-98e5-44d4-8938-ab41c03312e9",
+    "principle": "Security",
+    "score": 99,
+    "id": "289ac343-8467-4e6d-8d96-a64a982d60bc"
+  },
+  {
+    "framework_compliance_id": "7016cc39-98e5-44d4-8938-ab41c03312e9",
+    "principle": "Safety",
+    "score": 68,
+    "id": "852bc237-1a1f-4b71-b23e-7428de77f0a0"
+  },
+  {
+    "framework_compliance_id": "7016cc39-98e5-44d4-8938-ab41c03312e9",
+    "principle": "Privacy",
+    "score": 77,
+    "id": "c00c0dc2-d973-4a45-a663-ee249c5f3967"
+  },
+  {
+    "framework_compliance_id": "7016cc39-98e5-44d4-8938-ab41c03312e9",
+    "principle": "Sustainability",
+    "score": 69,
+    "id": "914f0710-25f1-4a0a-9010-3fbe2379e3b4"
+  },
+  {
+    "framework_compliance_id": "e09d8ab2-c00b-4186-8c4e-96a1f6b0e46b",
+    "principle": "Fairness",
+    "score": 48,
+    "id": "fb1209cc-bb1a-4afc-a0df-464755a6c2e5"
+  },
+  {
+    "framework_compliance_id": "e09d8ab2-c00b-4186-8c4e-96a1f6b0e46b",
+    "principle": "Transparency",
+    "score": 16,
+    "id": "ca96f68f-27bd-439f-8541-9dec7e230dc1"
+  },
+  {
+    "framework_compliance_id": "e09d8ab2-c00b-4186-8c4e-96a1f6b0e46b",
+    "principle": "Explainability",
+    "score": 19,
+    "id": "199b3ac5-2d8a-4630-9899-b5c7dc211d15"
+  },
+  {
+    "framework_compliance_id": "e09d8ab2-c00b-4186-8c4e-96a1f6b0e46b",
+    "principle": "Accountability",
+    "score": 26,
+    "id": "f25c91db-6af8-45be-a32c-4df6eb35a902"
+  },
+  {
+    "framework_compliance_id": "e09d8ab2-c00b-4186-8c4e-96a1f6b0e46b",
+    "principle": "Data Integrity",
+    "score": 85,
+    "id": "18e79f57-725d-4e50-b32b-f33a9db47fa4"
+  },
+  {
+    "framework_compliance_id": "e09d8ab2-c00b-4186-8c4e-96a1f6b0e46b",
+    "principle": "Reliability",
+    "score": 83,
+    "id": "435a41f1-b3a1-4dba-895f-4417bf987abf"
+  },
+  {
+    "framework_compliance_id": "e09d8ab2-c00b-4186-8c4e-96a1f6b0e46b",
+    "principle": "Security",
+    "score": 99,
+    "id": "5f57d43d-c1a3-402a-9b9f-dbf1c2e0f350"
+  },
+  {
+    "framework_compliance_id": "e09d8ab2-c00b-4186-8c4e-96a1f6b0e46b",
+    "principle": "Safety",
+    "score": 68,
+    "id": "7bbabdea-af68-4ad3-9736-699af031e64a"
+  },
+  {
+    "framework_compliance_id": "e09d8ab2-c00b-4186-8c4e-96a1f6b0e46b",
+    "principle": "Privacy",
+    "score": 77,
+    "id": "0163e745-bd70-44ec-8eeb-0a38f0187068"
+  },
+  {
+    "framework_compliance_id": "e09d8ab2-c00b-4186-8c4e-96a1f6b0e46b",
+    "principle": "Sustainability",
+    "score": 69,
+    "id": "2a5271f0-07a6-4d35-8919-7ffb61fe8032"
+  }
+]

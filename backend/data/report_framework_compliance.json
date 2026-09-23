@@ -1,0 +1,42 @@
+[
+  {
+    "report_id": "f28a6ee7-80b8-4387-bd3e-bf786b2edd18",
+    "ai_system_id": "d1ae4ba1-df71-46c0-a072-efda99cc32f4",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "framework": "EU_AI_Act",
+    "status": "Conditional",
+    "overall_score": 59,
+    "threshold": 70,
+    "id": "00c0f38f-be62-4ec1-9183-f17789745918"
+  },
+  {
+    "report_id": "f28a6ee7-80b8-4387-bd3e-bf786b2edd18",
+    "ai_system_id": "d1ae4ba1-df71-46c0-a072-efda99cc32f4",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "framework": "ISO_42001",
+    "status": "Conditional",
+    "overall_score": 59,
+    "threshold": 75,
+    "id": "834b5fce-3c22-4e23-9898-db28a442a6b1"
+  },
+  {
+    "report_id": "f28a6ee7-80b8-4387-bd3e-bf786b2edd18",
+    "ai_system_id": "d1ae4ba1-df71-46c0-a072-efda99cc32f4",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "framework": "NIST_AI_RMF",
+    "status": "Conditional",
+    "overall_score": 59,
+    "threshold": 65,
+    "id": "7016cc39-98e5-44d4-8938-ab41c03312e9"
+  },
+  {
+    "report_id": "f28a6ee7-80b8-4387-bd3e-bf786b2edd18",
+    "ai_system_id": "d1ae4ba1-df71-46c0-a072-efda99cc32f4",
+    "owner_id": "bb5b8fb3-2c72-4f31-9fe5-f91fb515cb4a",
+    "framework": "KPMG_TAF",
+    "status": "Assessed",
+    "overall_score": 59,
+    "threshold": null,
+    "id": "e09d8ab2-c00b-4186-8c4e-96a1f6b0e46b"
+  }
+]
